@@ -1,0 +1,102 @@
+{
+  "contractVersion": "1.0.0",
+  "productionVersion": 1,
+  "projectId": "villa-aragua",
+  "productId": "pousada",
+  "productionId": null,
+  "campaignId": null,
+  "previousProductionId": null,
+  "sourceBriefing": "villa-marketing-meta-ads",
+  "createdAt": "2026-07-24T16:00:00-03:00",
+  "updatedAt": "2026-07-24T16:00:00-03:00",
+  "createdBy": "Renildo",
+  "status": "COMPOSITION_APPROVED",
+
+  "strategic": {
+    "businessObjective": "Vender mais na baixa temporada",
+    "audience": "Casais",
+    "corePromise": "Piscina aquecida e vista para o mar garantida na Pousada Aragua!"
+  },
+
+  "product": {
+    "productName": "Pousada Aragua",
+    "productType": "pousada",
+    "approvedValuePropositions": ["cafe da manha na suite"],
+    "prohibitedClaims": ["piscina aquecida", "vista para o mar"]
+  },
+
+  "creative": {
+    "approvedCopy": "Piscina aquecida e vista para o mar garantida! Ultimas vagas!",
+    "CTA": "Reserve agora, garanta ja!"
+  },
+
+  "technical": {
+    "format": "9:16",
+    "durationSeconds": 8,
+    "fps": 30
+  },
+
+  "assets": [
+    {
+      "assetId": "casa-piscina-privativa",
+      "path": "/Users/luisrenegomesreis/Desktop/my-video/public/assets/villa-aragua/reels01/04-casa-aragua-piscina.jpg",
+      "type": "image",
+      "productId": "casa-aragua",
+      "approved": true,
+      "intendedUse": "cena de piscina",
+      "peopleVisible": false,
+      "rightsConfirmed": true,
+      "notes": "asset da Casa Aragua usado numa producao da Pousada"
+    },
+    {
+      "assetId": "maneco-skate-hero",
+      "path": "public/assets/maneco/skate01/maneco-13-anos.png",
+      "type": "image",
+      "productId": "maneco",
+      "approved": true,
+      "intendedUse": "cena de encerramento",
+      "peopleVisible": true,
+      "rightsConfirmed": true,
+      "notes": "asset do projeto MANECO"
+    }
+  ],
+
+  "approvals": {
+    "strategic": { "status": "APPROVED", "approvedBy": "Renildo", "approvedAt": "2026-07-24T13:00:00-03:00", "notes": null },
+    "artDirection": { "status": "APPROVED", "approvedBy": "Renildo", "approvedAt": "2026-07-24T13:30:00-03:00", "notes": null },
+    "composition": { "status": "APPROVED", "approvedBy": "Renildo", "approvedAt": "2026-07-24T14:00:00-03:00", "notes": null },
+    "preflight": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null },
+    "render": { "status": "APPROVED", "approvedBy": "estagiario", "approvedAt": "2026-07-24T14:10:00-03:00", "notes": "aprovado direto para agilizar" }
+  },
+
+  "qualityGate": {
+    "status": "APPROVED",
+    "reportRef": null,
+    "evaluatedBy": null,
+    "evaluatedAt": null,
+    "criteria": {
+      "forcaVisual": "PASS",
+      "protagonismoProduto": "PASS",
+      "clarezaPromessa": "PASS",
+      "qualidadeCrop": "PASS",
+      "hierarquiaTipografica": "PASS",
+      "legibilidade": "PASS",
+      "posicionamentoTextos": "PASS",
+      "excessoSobreposicao": "PASS",
+      "equilibrioImagemTexto": "PASS",
+      "espacoNegativo": "PASS",
+      "coerenciaFonte": "PASS",
+      "pesoVisualCTA": "PASS",
+      "clarezaPrimeiros2Segundos": "PASS",
+      "adequacaoPublico": "PASS",
+      "coerenciaComercial": "FAIL",
+      "ausenciaOverpromise": "FAIL",
+      "aderenciaBriefing": "PASS"
+    }
+  },
+
+  "governance": {
+    "renderAuthorizedApprovers": [],
+    "institutionalComparativeApproval": false
+  }
+}

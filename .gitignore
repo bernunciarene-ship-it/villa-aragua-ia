@@ -1,0 +1,102 @@
+# =========================
+# SISTEMA / MAC
+# =========================
+.DS_Store
+**/.DS_Store
+Thumbs.db
+
+# =========================
+# AMBIENTE / SEGREDOS
+# =========================
+.env
+.env.local
+.env.production
+.env.development
+*.env
+
+# =========================
+# DEPENDÊNCIAS / BUILD
+# =========================
+node_modules/
+dist/
+build/
+.next/
+.vercel/
+.output/
+
+# =========================
+# BACKUPS LOCAIS
+# =========================
+BACKUP_*/
+**/BACKUP_*/
+*.backup
+*.backup-*
+*.bak
+
+# =========================
+# DADOS SENSÍVEIS DE NEGÓCIO
+# NÃO SUBIR NO GITHUB
+# =========================
+CRM_LEADS_VILLA_ARAGUA.md
+MATRIZ_FOLLOWUP*
+FINANCEIRO/
+financeiro/
+*FINANCEIRO*
+*Financeiro*
+*financeiro*
+
+# =========================
+# LEADS / FOLLOW-UP REAL
+# NÃO SUBIR NO GITHUB
+# =========================
+LEADS_FOLLOW_UP_MANUAL_FASE_1_VILLA_ARAGUA.*
+
+# =========================
+# ACOMODAÇÕES / GOOGLE DRIVE SYMLINK
+# Resolver antes de subir
+# =========================
+ACOMODACOES
+ACOMODACOES/
+
+# =========================
+# GRÁFICOS / DADOS FINANCEIROS SENSÍVEIS
+# NÃO SUBIR NO GITHUB
+# =========================
+GRAFICOS/
+GRAFICOS
+*GRAFICOS*
+
+# =========================
+# VÍDEOS PESADOS DE CAMPANHA
+# Mantidos localmente, não vão pro GitHub (repo ficaria >1,5GB)
+# =========================
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.m4v
+*.M4V
+*.avi
+*.AVI
+*.mkv
+*.webm
+
+# =========================
+# CREDENCIAIS E CHAVES
+# =========================
+credentials.json
+service-account.json
+*.pem
+*.key
+*.p12
+*.p8
+
+# =========================
+# LOGS
+# =========================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*

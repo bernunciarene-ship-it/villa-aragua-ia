@@ -1,0 +1,705 @@
+# Mapa do Cérebro da Villa Arágua IA
+
+**Versão em texto para salvar no VSCode**  
+**Origem:** transcrição estruturada a partir das telas enviadas por Renildo em 24 jul. 2026.  
+**Uso:** orientar o funcionamento da Villa Arágua IA, seus agentes, skills, fontes, humanos revisores e limites de automação.
+
+---
+
+## 0. Identidade do mapa
+
+**Villa Arágua IA — Arquitetura Interna**
+
+Este mapa descreve como uma mensagem de hóspede ou lead vira um rascunho seguro: da regra máxima que nenhum agente pode quebrar, passando pelos 9 agentes e 12 skills do projeto, até o humano que revisa e envia.
+
+**Princípio central:** nenhuma automação real existe. Tudo converge para revisão humana.
+
+### Status operacional
+
+- Modo Rascunho Assistido
+- WhatsApp real bloqueado
+- Zapier / Make / API bloqueados
+- 9 agentes `.claude/agents` + 1 branch
+- 12 skills `.claude/skills`
+- Atualizado em 24 jul. 2026
+
+---
+
+## 1. Fluxo de uma mensagem
+
+O mesmo caminho vale para WhatsApp, Instagram, Booking ou Airbnb: um humano sempre cola a mensagem na IA e sempre envia a resposta.
+
+Nenhum passo é automático. Cada seta é uma ação humana ou de rascunho.
+
+### Fluxo padrão
+
+1. **Hóspede / lead escreve**  
+   Canal real, fora da IA.
+
+2. **Humano cola a mensagem**  
+   Rene, Nubia ou Renildo.
+
+3. **Orquestrador classifica**  
+   Define trilha e nível de risco.
+
+4. **Agente + skill de apoio**  
+   Consulta fonte oficial.
+
+5. **Rascunho ou contenção**  
+   Nunca responde diretamente a casos N3, N4, C3 ou C4.
+
+6. **Revisão humana**  
+   Checklist de 10 perguntas.
+
+7. **Envio manual**  
+   Pelo canal real.
+
+8. **Registro / aprendizado**  
+   Candidato a template futuro.
+
+---
+
+## 2. Regras máximas
+
+Definidas em `DEFINICAO_AGENTES_VILLA_ARAGUA_IA.md` e reforçadas em cada agente individualmente.
+
+Valem para todos os agentes, sem exceção.
+
+### Nenhum agente pode:
+
+- enviar mensagem automaticamente;
+- confirmar reserva ou disponibilidade;
+- definir preço final;
+- conceder desconto;
+- autorizar exceção de regra;
+- decidir reembolso;
+- resolver conflito delicado;
+- substituir Rene, Nubia ou Renildo;
+- prometer vista para o mar ou frente-mar;
+- citar valor de serviço, mesmo já confirmado.
+
+---
+
+## 3. Hierarquia de fontes
+
+Em caso de conflito, o número menor vence.
+
+Nenhuma skill, agente ou rascunho pode contradizer os dados oficiais, as bibliotecas aprovadas ou o Modo Rascunho Assistido.
+
+1. **`MODO_RASCUNHO_ASSISTIDO_VILLA_ARAGUA.md`**  
+   Define os limites da IA — a lei-mãe do projeto.
+
+2. **`PROTOCOLO_USO_DIARIO_RASCUNHO_ASSISTIDO_VILLA_ARAGUA.md`**  
+   Rotina diária, formato de entrada/saída e checklist de revisão.
+
+3. **`DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`**  
+   Fonte máxima de fatos: distância, capacidade, política, valor.
+
+4. **`BIBLIOTECA_OFICIAL_RECEPCIONISTA_IA_VILLA_ARAGUA.md`**  
+   25 templates operacionais N1–N4, testados 15/15.
+
+5. **`BIBLIOTECA_COMERCIAL_RECEPCIONISTA_IA_VILLA_ARAGUA.md`**  
+   21 templates comerciais C1–C4, testados 19/19.
+
+6. **Skills Claude — `.claude/skills/`**  
+   Executam função específica, sem alterar a verdade dos arquivos.
+
+7. **Arquivos de apoio**  
+   Playbook, check-in autônomo, guia digital, posicionamento e roteiros locais.
+
+---
+
+## 4. Portas de entrada
+
+Duas formas de entrar, para o mesmo destino: rascunho revisável.
+
+O Orquestrador é o caminho recomendado quando o caso não é óbvio.  
+A Recepcionista já resolve o caso comum de ponta a ponta.
+
+### 4.1 `villa-orquestrador-triagem`
+
+**Arquivo:** `.claude/agents/villa-orquestrador-triagem.md`  
+**Função:** roteador
+
+Lê a mensagem, identifica a trilha — Comercial, Operacional, Risco, Preço, Turismo, Marketing, Aprendizado ou Mista — e diz qual agente deve assumir.
+
+Nunca responde ao hóspede diretamente.
+
+> “Eu não respondo, eu direciono certo.”
+
+**Escala para Renildo quando:**  
+a triagem já identifica N4/C4, ou um caso misto em que risco/preço domina.
+
+### 4.2 `villa-recepcionista-rascunho`
+
+**Arquivo:** `.claude/agents/villa-recepcionista-rascunho.md`  
+**Função:** hub
+
+Agente central: cola-se a conversa inteira e ele devolve classificação, produto, nível, risco, dados faltantes, rascunho e checklist — tudo em um único passe, usando 3 skills de apoio.
+
+**Fluxo obrigatório:**  
+classificar → separar Pousada/Casa → verificar risco → gerar rascunho ou contenção.
+
+**Regra própria:**  
+não afirma fato sensível — distância, pet, cancelamento — sem consultar `DADOS_OFICIAIS` primeiro. Se não houver fonte, declara lacuna.
+
+---
+
+## 5. Os agentes especializados
+
+**Local:** `.claude/agents/`  
+**Estrutura:** 9 agentes no domínio Villa Arágua + 1 branch externo.
+
+Cada agente tem uma trilha, arquivos-fonte próprios, skills de apoio e um critério explícito de quando escalar para humano.
+
+Nenhum agente decide preço, desconto, disponibilidade ou exceção.
+
+### Legenda de atuação
+
+- Entrada / triagem
+- Vendas
+- Operação
+- Risco
+- Apoio à decisão
+- Growth / mídia paga
+- Camada de revisão
+- Domínio separado
+
+---
+
+### 5.1 `villa-comercial-reservas`
+
+**Nível:** C1–C4  
+**Área:** vendas
+
+Cuida de leads e pré-reservas: diagnóstico de perfil, separação Pousada x Casa, pedido de foto, contenção de orçamento e follow-up.
+
+Usa a competência SI-01 como apoio em Turismo/Concierge quando há dado documentado.
+
+> “Eu ajudo a escolher, eu não confirmo e não fecho.”
+
+**Skills de apoio:**
+
+- `sales-receptionist`
+- `humanizer-pt-br`
+- `marketing-psychology`
+
+**Escala para Renildo:**
+
+- todo C3 sensível: data nobre, Casa, feriado;
+- todo C4: desconto, negociação.
+
+---
+
+### 5.2 `villa-operacional-estadia`
+
+**Nível:** N1–N4  
+**Área:** operação
+
+Atende situações de hóspede com reserva feita: check-in, check-out, Wi-Fi, acesso, regras, café, piscina, churrasqueira e silêncio.
+
+> “Eu oriento com a regra que já existe, eu não crio regra nova.”
+
+**Skills de apoio:**
+
+- `humanizer-pt-br`
+
+**Escala para Renildo:**
+
+- todo N3/N4 sensível;
+- qualquer pedido de exceção.
+
+---
+
+### 5.3 `villa-risco-escalacao`
+
+**Função:** freio
+
+Atua em reclamação, hóspede irritado, emergência, reembolso, conflito ou exceção.
+
+Impede que qualquer outro agente trate um caso delicado como atendimento comum.
+
+> “Eu contenho e chamo, eu não resolvo sozinho.”
+
+**Regra:**  
+quando risco se mistura com venda, o risco manda.
+
+**Escala para Renildo:**  
+sempre em N4/C4, reembolso e conflito — regra dos 3 minutos.
+
+---
+
+### 5.4 `villa-experiencia-tom`
+
+**Função:** forma
+
+Revisa a linguagem de um rascunho já correto em conteúdo.
+
+Nunca decide o que a resposta diz. Só ajusta como soa.
+
+> “Eu mudo o como, nunca o quê.”
+
+**Skills de apoio:**
+
+- `humanizer-pt-br`
+- `marketing-psychology`
+
+**Atua depois de:**  
+Comercial, Operacional ou Risco já terem gerado o rascunho.
+
+---
+
+### 5.5 `villa-precificacao-calendario`
+
+**Função:** análise
+
+Apoia Renildo com sazonalidade, concorrência e calendário quando ele decide preço.
+
+Nunca fala com o hóspede.
+
+> “Eu analiso para Renildo decidir — eu não decido e não falo com o hóspede.”
+
+**Skills de apoio:**
+
+- `pricing-revenue`
+- `campaign-analytics`
+- `growth-marketer`
+
+**Destinatário:**  
+sempre e só Renildo.
+
+---
+
+### 5.6 `villa-marketing-meta-ads`
+
+**Função:** campanhas
+
+Planeja campanhas, criativos, copy, públicos e funil Meta Ads → WhatsApp.
+
+Separa Pousada e Casa sempre. Nunca usa a mesma promessa comercial para os dois produtos.
+
+**Funil:**  
+descoberta → interesse → conversa → orçamento → follow-up → reserva → pós-venda.
+
+**Skills de apoio:**
+
+- `copywriting-conversion`
+- `creative-design-ads`
+- `campaign-analytics`
+- `marketing-psychology`
+- `humanizer-pt-br`
+
+**Não faz:**
+
+- subir ou pausar campanha real;
+- alterar orçamento;
+- inventar desconto.
+
+---
+
+### 5.7 `villa-aprendizado-manual`
+
+**Função:** registro
+
+Consolida lacunas e erros do piloto em candidatos a novo template.
+
+Nunca persiste nada sozinho.
+
+> “Eu registro o que falta — eu não decido o que vira regra.”
+
+**Entrada:**  
+caso resolvido manualmente que expôs lacuna, ou erro do checklist diário.
+
+**Escala para Renildo:**  
+toda sugestão de novo template, sem exceção.
+
+---
+
+### 5.8 `video-factory-ia`
+
+**Função:** handoff
+
+Camada fina de transferência entre a estratégia da Villa Arágua e a produção técnica de vídeo, que roda em outro repositório, `my-video`.
+
+Não executa pipeline aqui.
+
+**Escopo encerra em:**
+
+- produto;
+- público;
+- promessa;
+- CTA;
+- restrições;
+- briefing;
+- aprovação estratégica.
+
+**Antes do handoff confirma:**
+
+- briefing válido;
+- aprovação estratégica registrada;
+- hashes coerentes.
+
+**Adicionado:**  
+24 jul. 2026 — o orquestrador técnico canônico vive só em `my-video`.
+
+---
+
+## 6. As 12 skills
+
+**Local:** `.claude/skills/`  
+**Função:** ferramentas que os agentes acionam, nunca o contrário.
+
+Skill não é agente.  
+Não decide sozinha.  
+Não fala com o hóspede diretamente.  
+Nunca contradiz uma fonte oficial.
+
+Um agente aciona uma ou mais skills como apoio de linguagem, diagnóstico ou estrutura.
+
+---
+
+### 6.1 Atendimento & Comercial
+
+#### `villa-aragua-sales-receptionist`
+
+Diagnóstico de lead, Pousada x Casa, objeção e follow-up.
+
+#### `villa-aragua-pricing-revenue`
+
+Preço, pacote, desconto e sazonalidade.  
+Não decide sozinha.
+
+#### `villa-aragua-humanizer-pt-br`
+
+Tira “cara de IA” de um texto já pronto.  
+Atua só na forma.
+
+#### `villa-aragua-marketing-psychology`
+
+Analisa por que o lead hesita ou compra.  
+Sempre de forma ética.
+
+---
+
+### 6.2 Marketing & Mídia Paga
+
+#### `villa-aragua-copywriting-conversion`
+
+Copy de site, anúncio e CTA.
+
+#### `villa-aragua-creative-design-ads`
+
+Direção visual de criativos de Ads.
+
+#### `villa-aragua-campaign-analytics`
+
+Mede campanha já rodando.  
+Nunca inventa métrica.
+
+#### `villa-aragua-growth-marketer`
+
+Prioridade de canal e plano de crescimento.
+
+#### `villa-aragua-social-media-manager`
+
+Calendário e comunidade do Instagram orgânico.
+
+---
+
+### 6.3 Conteúdo & Descoberta
+
+#### `villa-aragua-content-strategy`
+
+Define o que criar: pilares, calendário e briefing.
+
+#### `villa-aragua-ai-seo-geo`
+
+Estrutura citável por busca e IA generativa.
+
+---
+
+### 6.4 Orquestração
+
+#### `villa-aragua-skill-router`
+
+Decide skill principal, apoio e ordem quando o pedido é ambíguo.
+
+---
+
+## 7. Base de conhecimento
+
+Bibliotecas e protocolos na raiz do projeto são a fonte “processada”: testada e versionada.
+
+As pastas abaixo são a matéria-prima original, em maioria `.docx`, `.xlsx` e `.pdf`.
+
+### Produto & Venda
+
+- `ACOMODACOES/`
+- `MARKETING E VENDAS/`
+- `CONCORRENTES/`
+- `AVALIACOES/`
+
+### Atendimento
+
+- `RECEPCIONISTA IA/`
+- `BASE DE CONHECIMENTO/`
+- `GUIA DIGITAL DO HOSPEDE/`
+- `BOMBINHAS/`
+
+### Operação
+
+- `OPERACAO/`
+- `GERENTE VIRTUAL/`
+
+### Dinheiro
+
+- `FINANCEIRO/`
+- `REVENUE MANAGER/`
+- `ESTATISTICAS E RESERVAS/`
+- `GRAFICOS/`
+
+### Estratégia
+
+- `DNA VILLA ARAGUA/`
+- `LOGO VILLA ARAGUA/`
+
+### Lacunas deliberadas
+
+- Biblioteca de Turismo/Concierge completa;
+- CRM de leads;
+- banco de disponibilidade real.
+
+---
+
+## 8. Porta de saída: os humanos
+
+Todo rascunho termina aqui antes de existir para o hóspede.
+
+Nenhum agente envia mensagem. Todo rascunho é revisado, ajustado ou bloqueado por uma destas três pessoas — e só então enviado manualmente pelo canal real.
+
+### 8.1 Primeira linha — Rene
+
+Recebe dúvidas N1/N2 e C1/C2, pedidos de foto/informação, triagem inicial, e encaminha — sem resolver sozinho — os rascunhos de contenção N3/C3.
+
+### 8.2 Substituta — Nubia
+
+Mesmas travas e mesmo escopo de Rene: operacional e comercial simples, sem decisão sensível.
+
+### 8.3 Decisão sensível — sempre Renildo
+
+Responsável por:
+
+- preço;
+- desconto;
+- reembolso;
+- reclamação com risco de avaliação negativa;
+- conflito;
+- exceção;
+- negociação;
+- aprovação de novo template;
+- retaguarda de N4 se ninguém assumir em 3 minutos.
+
+---
+
+## 9. Status & lacunas
+
+O que já está testado vs. o que ainda depende de decisão humana.
+
+### 9.1 Testado e persistido
+
+- Biblioteca Operacional — 25 templates N1–N4, regressão 15/15 aprovada.
+- Biblioteca Comercial — 21 templates C1–C4, regressão 19/19 aprovada.
+- Modo Rascunho Assistido e Protocolo de Uso Diário — persistidos e em uso.
+- 9 agentes `.claude/agents` + 12 skills `.claude/skills` — ativos desde 21 jul. 2026.
+- Piloto manual: Registros 06–16 concluídos, pausado após o 16, retomada não agendada.
+
+### 9.2 Lacunas em aberto
+
+- Biblioteca de Turismo/Concierge completa não existe — SI-01 é só apoio inicial.
+- Rotina formal de como um erro registrado vira ajuste de template.
+- Padrão de escalação testado em volume real — piloto pausado.
+- Integração técnica WhatsApp/Zapier/Make/API — bloqueada e nem desenhada.
+- CRM de leads e banco de disponibilidade real — não existem.
+
+---
+
+## 10. Encaixe do novo projeto de Precificação e Revenue Management
+
+O novo projeto de Precificação, Revenue Management e Inteligência de Decisão deve entrar como um módulo subordinado ao cérebro principal da Villa Arágua IA.
+
+### 10.1 Local lógico no mapa
+
+```text
+VILLA ARAGUA IA
+│
+├── Cérebro Estratégico
+├── Cérebro Comercial
+├── Cérebro Financeiro
+├── Cérebro Operacional
+└── Cérebro de Revenue Management
+    ├── preço mínimo
+    ├── preço-alvo
+    ├── preço de oportunidade
+    ├── concorrentes
+    ├── sazonalidade
+    ├── ocupação
+    ├── antecedência
+    ├── margem
+    ├── calendário comercial
+    ├── disponibilidade real
+    └── recomendação para decisão humana
+```
+
+### 10.2 Regra-mãe para precificação
+
+A IA pode:
+
+- analisar;
+- calcular;
+- comparar;
+- apresentar cenários;
+- recomendar;
+- explicar a recomendação;
+- registrar riscos;
+- pedir dados faltantes.
+
+A IA não pode:
+
+- definir preço final;
+- falar preço ao hóspede;
+- conceder desconto;
+- alterar tarifa em plataformas;
+- confirmar disponibilidade;
+- prometer condição comercial;
+- substituir decisão de Renildo.
+
+### 10.3 Agente principal relacionado
+
+O agente mais diretamente relacionado é:
+
+```text
+villa-precificacao-calendario
+```
+
+Ele apoia Renildo com sazonalidade, concorrência e calendário quando Renildo decide preço.
+
+**Destinatário:** sempre e só Renildo.
+
+### 10.4 Skill principal relacionada
+
+A skill mais diretamente relacionada é:
+
+```text
+villa-aragua-pricing-revenue
+```
+
+Ela apoia análise de preço, pacote, desconto e sazonalidade, mas não decide sozinha.
+
+### 10.5 Dados que precisam alimentar o módulo
+
+O módulo de Revenue Management deve consultar, quando disponíveis:
+
+- histórico de receitas da Pousada Arágua;
+- histórico de receitas da Casa Arágua;
+- custos fixos;
+- custos variáveis;
+- comissões;
+- impostos;
+- limpeza;
+- café da manhã;
+- manutenção;
+- marketing;
+- ocupação;
+- antecedência das reservas;
+- calendário comercial;
+- feriados;
+- eventos;
+- concorrentes;
+- preços por temporada;
+- reservas futuras;
+- disponibilidade real.
+
+### 10.6 Lacunas críticas para Revenue Management
+
+Pelo próprio mapa, existem duas lacunas importantes:
+
+- CRM de leads não existe.
+- Banco de disponibilidade real não existe.
+
+Para o módulo de precificação, isso significa que a primeira fase não deve automatizar decisão. Deve fazer diagnóstico, inventário dos dados e regras manuais de decisão.
+
+---
+
+## 11. Regra financeira obrigatória para qualquer análise
+
+Toda análise deve separar cinco caixas:
+
+1. **Resultado operacional da Villa Arágua**  
+   Pousada Arágua, Casa Arágua, receitas de hospedagem, comissões, limpeza, manutenção, funcionários, marketing, impostos e custos operacionais.
+
+2. **Renda patrimonial**  
+   Casa Mar, apartamentos, aluguéis, terrenos, imóveis e possíveis vendas.
+
+3. **Família e vida pessoal**  
+   Retirada familiar, alimentação, escola, saúde, lazer, gasolina, viagens e despesas pessoais.
+
+4. **MANECO e investimento de futuro**  
+   Desenvolvimento, produção, design, roteiro, consultorias, reuniões, viagens e captação.
+
+5. **Saldo geral da travessia**  
+   Visão final para entender se o conjunto da vida está sustentável.
+
+**Regra:** nunca misturar renda patrimonial, despesas familiares ou MANECO com lucro operacional da pousada.
+
+---
+
+## 12. Ordem correta de implantação do módulo de Revenue Management
+
+Não criar agentes, skills, automações ou código antes de entender:
+
+1. quais dados existem;
+2. a qualidade desses dados;
+3. os custos reais;
+4. as unidades de venda;
+5. a sazonalidade;
+6. o histórico de receitas;
+7. o calendário comercial;
+8. os concorrentes;
+9. as regras de decisão.
+
+### Ordem de implantação
+
+```text
+Método
+↓
+Dados
+↓
+Regras
+↓
+Modelo de decisão
+↓
+Skills
+↓
+Agentes
+↓
+Automação futura
+```
+
+---
+
+## 13. Nota de origem
+
+Compilado a partir das telas do artifact “Mapa do Cérebro — Villa Arágua IA” e alinhado com os arquivos mencionados no próprio mapa:
+
+- `MAPA_DO_CEREBRO_IA_VILLA_ARAGUA.md`
+- `DEFINICAO_AGENTES_VILLA_ARAGUA_IA.md`
+- `MATRIZ_ROTEAMENTO_AGENTES_VILLA_ARAGUA.md`
+- `MAPA_DE_USO_DAS_SKILLS_VILLA_ARAGUA.md`
+- arquivos reais em `.claude/agents/`
+- arquivos reais em `.claude/skills/`
+
+Nenhum dado de hóspede real foi usado.
+
+Sem automação.  
+Modo Rascunho Assistido até autorização explícita de Renildo.
+

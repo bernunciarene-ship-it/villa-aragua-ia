@@ -1,0 +1,279 @@
+{
+  "registros": [
+    {
+      "bloco": "BLOCO 1 — POUSADA — PACOTE DIRETO",
+      "anuncio": "POUSADA_7SET_PACOTE_DIRETO_01",
+      "variacao": 1,
+      "linha_destino": 7,
+      "foto_sugerida": "POUSADA_7SET_PACOTE_DIRETO_01.jpg",
+      "texto_imagem": "POUSADA / Férias pra sempre",
+      "titulo": "4 diárias por R$ 1.997,00",
+      "texto_principal": "Feriado de 7 de Setembro: 4 diárias na Pousada Arágua por R$ 1.997,00. Café da manhã incluso, piscina e a praia de Mariscal pertinho. Consulte disponibilidade pelo WhatsApp.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 1 — POUSADA — PACOTE DIRETO",
+      "anuncio": "POUSADA_7SET_PACOTE_DIRETO_01",
+      "variacao": 2,
+      "linha_destino": 8,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Feriado com tudo incluso",
+      "texto_principal": "Chegar, aproveitar e não se preocupar com mais nada — no feriado de 7 de Setembro, a Pousada Arágua recebe vocês com café da manhã incluso, piscina e a Praia de Mariscal a poucos passos, por 4 diárias a R$ 1.997,00.",
+      "descricao": "Pousada Arágua — pacote de feriado"
+    },
+    {
+      "bloco": "BLOCO 1 — POUSADA — PACOTE DIRETO",
+      "anuncio": "POUSADA_7SET_PACOTE_DIRETO_01",
+      "variacao": 3,
+      "linha_destino": 9,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Feriado em família ou a dois",
+      "texto_principal": "Para família ou casal, o feriado de 7 de Setembro na Pousada Arágua já vem com café da manhã incluso e piscina, por 4 diárias a R$ 1.997,00. É só escolher a suíte e garantir a data pelo WhatsApp.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 1 — POUSADA — PACOTE DIRETO",
+      "anuncio": "POUSADA_7SET_PACOTE_DIRETO_01",
+      "variacao": 4,
+      "linha_destino": 10,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Preço fechado, sem surpresas",
+      "texto_principal": "4 diárias, café da manhã incluso e piscina — tudo dentro de um valor só: R$ 1.997,00 na Pousada Arágua, para o feriado de 7 de Setembro. Consulte a disponibilidade pelo WhatsApp.",
+      "descricao": "Pousada Arágua — pacote fechado"
+    },
+    {
+      "bloco": "BLOCO 1 — POUSADA — PACOTE DIRETO",
+      "anuncio": "POUSADA_7SET_PACOTE_DIRETO_01",
+      "variacao": 5,
+      "linha_destino": 11,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Garanta o feriado de 7 de Setembro",
+      "texto_principal": "O feriado de 7 de Setembro está chegando e as datas mais procuradas em Mariscal costumam esgotar primeiro. Garanta já 4 diárias na Pousada Arágua por R$ 1.997,00, com café da manhã incluso e piscina.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 2 — POUSADA — CAFÉ",
+      "anuncio": "POUSADA_7SET_CAFE_01",
+      "variacao": 1,
+      "linha_destino": 14,
+      "foto_sugerida": "POUSADA_7SET_CAFE_01.jpg",
+      "texto_imagem": "CAFÉ DA MANHÃ / Servido na suíte",
+      "titulo": "Café da manhã na acomodação",
+      "texto_principal": "Começar o dia com café da manhã entregue na própria acomodação — esse é um dos diferenciais da Pousada Arágua. No feriado de 7 de Setembro, pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 2 — POUSADA — CAFÉ",
+      "anuncio": "POUSADA_7SET_CAFE_01",
+      "variacao": 2,
+      "linha_destino": 15,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Comece o dia com calma",
+      "texto_principal": "Acordar e já ter o café da manhã esperando na acomodação — assim começam as manhãs na Pousada Arágua. No feriado de 7 de Setembro, pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — café da manhã incluso"
+    },
+    {
+      "bloco": "BLOCO 2 — POUSADA — CAFÉ",
+      "anuncio": "POUSADA_7SET_CAFE_01",
+      "variacao": 3,
+      "linha_destino": 16,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Praticidade para a família toda",
+      "texto_principal": "Para a família não perder tempo de manhã, o café já chega prontinho na acomodação — incluso em todas as diárias da Pousada Arágua. No feriado de 7 de Setembro, 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 2 — POUSADA — CAFÉ",
+      "anuncio": "POUSADA_7SET_CAFE_01",
+      "variacao": 4,
+      "linha_destino": 17,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Sempre incluso, todos os dias",
+      "texto_principal": "Diferente de apartamento ou Airbnb sem serviço, na Pousada Arágua o café da manhã é sempre incluso e entregue direto na acomodação. No feriado de 7 de Setembro, pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — diferencial do café da manhã"
+    },
+    {
+      "bloco": "BLOCO 2 — POUSADA — CAFÉ",
+      "anuncio": "POUSADA_7SET_CAFE_01",
+      "variacao": 5,
+      "linha_destino": 18,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Café da manhã no feriado, sem sair do quarto",
+      "texto_principal": "No feriado de 7 de Setembro, aproveite cada manhã com o café da manhã entregue direto na acomodação — um dos diferenciais da Pousada Arágua. Pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 3 — POUSADA — PISCINA",
+      "anuncio": "POUSADA_7SET_PISCINA_01",
+      "variacao": 1,
+      "linha_destino": 22,
+      "foto_sugerida": "POUSADA_7SET_PISCINA_01.webp",
+      "texto_imagem": "",
+      "titulo": "Piscina de área comum",
+      "texto_principal": "Piscina, área comum e o clima acolhedor da Pousada Arágua — tudo isso no feriado de 7 de Setembro, com pacote especial de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — piscina e área comum"
+    },
+    {
+      "bloco": "BLOCO 3 — POUSADA — PISCINA",
+      "anuncio": "POUSADA_7SET_PISCINA_01",
+      "variacao": 2,
+      "linha_destino": 23,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Um mergulho, muito descanso",
+      "texto_principal": "Um mergulho na piscina de área comum, um cantinho tranquilo para relaxar — assim é o clima da Pousada Arágua no feriado de 7 de Setembro. Pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — área comum e piscina"
+    },
+    {
+      "bloco": "BLOCO 3 — POUSADA — PISCINA",
+      "anuncio": "POUSADA_7SET_PISCINA_01",
+      "variacao": 3,
+      "linha_destino": 24,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Piscina para a família aproveitar",
+      "texto_principal": "Enquanto as crianças brincam na piscina de área comum, os pais descansam no clima acolhedor da Pousada Arágua. No feriado de 7 de Setembro, pacote de 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — piscina de área comum"
+    },
+    {
+      "bloco": "BLOCO 3 — POUSADA — PISCINA",
+      "anuncio": "POUSADA_7SET_PISCINA_01",
+      "variacao": 4,
+      "linha_destino": 25,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Área comum tranquila, do jeito Pousada Arágua",
+      "texto_principal": "Piscina e área comum bem cuidadas, num ambiente tranquilo e verde — esse é o clima da Pousada Arágua. No feriado de 7 de Setembro, 4 diárias por R$ 1.997,00.",
+      "descricao": "Pousada Arágua — área comum"
+    },
+    {
+      "bloco": "BLOCO 3 — POUSADA — PISCINA",
+      "anuncio": "POUSADA_7SET_PISCINA_01",
+      "variacao": 5,
+      "linha_destino": 26,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Descanso garantido no feriado",
+      "texto_principal": "No feriado de 7 de Setembro, aproveite a piscina de área comum e o clima acolhedor da Pousada Arágua. Pacote de 4 diárias por R$ 1.997,00 — consulte a disponibilidade.",
+      "descricao": "Pousada Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 4 — CASA — PISCINA PRIVATIVA",
+      "anuncio": "CASA_7SET_PISCINA_PRIVATIVA_01",
+      "variacao": 1,
+      "linha_destino": 32,
+      "foto_sugerida": "CASA_7SET_PISCINA_PRIVATIVA_01.webp",
+      "texto_imagem": "",
+      "titulo": "Piscina privativa só para vocês",
+      "texto_principal": "Sua própria piscina privativa em Mariscal. No feriado de 7 de Setembro, a Casa Arágua acomoda até 6 pessoas, com diária média de R$ 990,00 e mínimo de 4 diárias.",
+      "descricao": "Casa Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 4 — CASA — PISCINA PRIVATIVA",
+      "anuncio": "CASA_7SET_PISCINA_PRIVATIVA_01",
+      "variacao": 2,
+      "linha_destino": 33,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Sua casa, sua piscina, seu ritmo",
+      "texto_principal": "Sem dividir espaço, sem horário de ninguém — só a piscina privativa da Casa Arágua, para vocês aproveitarem do seu jeito. No feriado de 7 de Setembro, diária média de R$ 990,00, mínimo de 4 diárias.",
+      "descricao": "Casa Arágua — piscina privativa"
+    },
+    {
+      "bloco": "BLOCO 4 — CASA — PISCINA PRIVATIVA",
+      "anuncio": "CASA_7SET_PISCINA_PRIVATIVA_01",
+      "variacao": 3,
+      "linha_destino": 34,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Espaço para até 6 pessoas, só para o seu grupo",
+      "texto_principal": "Para família ou grupo pequeno que busca privacidade, a Casa Arágua acomoda até 6 pessoas com piscina exclusiva. No feriado de 7 de Setembro, diária média de R$ 990,00, mínimo de 4 diárias.",
+      "descricao": "Casa Arágua — até 6 pessoas"
+    },
+    {
+      "bloco": "BLOCO 4 — CASA — PISCINA PRIVATIVA",
+      "anuncio": "CASA_7SET_PISCINA_PRIVATIVA_01",
+      "variacao": 4,
+      "linha_destino": 35,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Privacidade que faz diferença",
+      "texto_principal": "A piscina é só sua durante toda a estadia — esse é o diferencial da Casa Arágua em Mariscal. No feriado de 7 de Setembro, até 6 pessoas, diária média de R$ 990,00, mínimo de 4 diárias.",
+      "descricao": "Casa Arágua — piscina privativa"
+    },
+    {
+      "bloco": "BLOCO 4 — CASA — PISCINA PRIVATIVA",
+      "anuncio": "CASA_7SET_PISCINA_PRIVATIVA_01",
+      "variacao": 5,
+      "linha_destino": 36,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Reserve a Casa para o feriado",
+      "texto_principal": "No feriado de 7 de Setembro, garanta a Casa Arágua com piscina privativa só para o seu grupo — até 6 pessoas, diária média de R$ 990,00, mínimo de 4 diárias. Consulte a disponibilidade pelo WhatsApp.",
+      "descricao": "Casa Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 5 — CASA — ESPAÇO INTEGRADO / CHURRASQUEIRA",
+      "anuncio": "CASA_7SET_CHURRASQUEIRA_01",
+      "variacao": 1,
+      "linha_destino": 39,
+      "foto_sugerida": "CASA_7SET_CHURRASQUEIRA_01.webp",
+      "texto_imagem": "",
+      "titulo": "Espaço para reunir a família em Mariscal",
+      "texto_principal": "Ambiente integrado e aconchegante para reunir a família no feriado de 7 de Setembro, na sua própria casa em Mariscal. Casa Arágua: piscina privativa, churrasqueira própria e espaço para até 6 pessoas.",
+      "descricao": "Casa Arágua — feriado de 7 de Setembro"
+    },
+    {
+      "bloco": "BLOCO 5 — CASA — ESPAÇO INTEGRADO / CHURRASQUEIRA",
+      "anuncio": "CASA_7SET_CHURRASQUEIRA_01",
+      "variacao": 2,
+      "linha_destino": 40,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Um dia tranquilo em família",
+      "texto_principal": "Ambiente integrado, espaço aberto e a churrasqueira própria para um dia tranquilo em família — a Casa Arágua tem tudo isso, no feriado de 7 de Setembro.",
+      "descricao": "Casa Arágua — ambiente integrado"
+    },
+    {
+      "bloco": "BLOCO 5 — CASA — ESPAÇO INTEGRADO / CHURRASQUEIRA",
+      "anuncio": "CASA_7SET_CHURRASQUEIRA_01",
+      "variacao": 3,
+      "linha_destino": 41,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Para famílias que gostam de estar juntas",
+      "texto_principal": "Casa Arágua: espaço integrado, churrasqueira própria e até 6 pessoas, ideal para famílias que querem estar juntas no feriado de 7 de Setembro.",
+      "descricao": "Casa Arágua — até 6 pessoas"
+    },
+    {
+      "bloco": "BLOCO 5 — CASA — ESPAÇO INTEGRADO / CHURRASQUEIRA",
+      "anuncio": "CASA_7SET_CHURRASQUEIRA_01",
+      "variacao": 4,
+      "linha_destino": 42,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "Churrasqueira própria, no seu ritmo",
+      "texto_principal": "Sem sair de casa, sem dividir espaço: a Casa Arágua tem churrasqueira própria e ambiente integrado para a família aproveitar o feriado de 7 de Setembro do seu jeito.",
+      "descricao": "Casa Arágua — churrasqueira própria"
+    },
+    {
+      "bloco": "BLOCO 5 — CASA — ESPAÇO INTEGRADO / CHURRASQUEIRA",
+      "anuncio": "CASA_7SET_CHURRASQUEIRA_01",
+      "variacao": 5,
+      "linha_destino": 43,
+      "foto_sugerida": "",
+      "texto_imagem": "",
+      "titulo": "O feriado pede uma casa assim",
+      "texto_principal": "No feriado de 7 de Setembro, reúna a família na Casa Arágua: ambiente integrado, churrasqueira própria, piscina privativa e espaço para até 6 pessoas.",
+      "descricao": "Casa Arágua — feriado de 7 de Setembro"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "contractVersion": "1.0.0",
+  "productionVersion": 1,
+  "projectId": "villa-aragua",
+  "productId": "pousada",
+  "productionId": "reel-acomodacoes-01",
+  "campaignId": null,
+  "previousProductionId": null,
+  "sourceBriefing": "villa-marketing-meta-ads",
+  "createdAt": "2026-07-24T13:00:00-03:00",
+  "updatedAt": "2026-07-24T15:10:00-03:00",
+  "createdBy": "Renildo",
+  "status": "COMPOSITION_APPROVED",
+
+  "strategic": {
+    "businessObjective": "Aumentar reservas diretas da Pousada Arágua na baixa temporada",
+    "audience": "Casais 25-55 anos, Santa Catarina/Paraná/Rio Grande do Sul",
+    "awarenessLevel": "morno",
+    "funnelStage": "consideracao",
+    "corePromise": "Descanso simples e acolhedor perto da Praia de Mariscal",
+    "offer": null,
+    "seasonality": "baixa temporada",
+    "distributionChannel": "Instagram Reels organico",
+    "organicOrPaid": "organico",
+    "budgetContext": null,
+    "successMetric": "cliques para WhatsApp",
+    "commercialPriority": "media"
+  },
+
+  "product": {
+    "productName": "Pousada Aragua",
+    "productType": "pousada",
+    "location": "Praia de Mariscal, Bombinhas/SC",
+    "approvedValuePropositions": [
+      "cafe da manha servido na suite",
+      "piscina de area comum",
+      "clima acolhedor e familiar",
+      "pousada pequena e charmosa"
+    ],
+    "prohibitedClaims": [
+      "vista para o mar",
+      "piscina aquecida",
+      "frente-mar"
+    ],
+    "mandatoryDisclaimers": [],
+    "differentiation": "acolhimento e charme, nao exclusividade",
+    "guestProfile": "casais e familias pequenas",
+    "bookingChannel": "WhatsApp",
+    "whatsAppDestination": "recepcao Pousada Aragua"
+  },
+
+  "creative": {
+    "creativeConcept": "Tour rapido por 3 acomodacoes, tom leve, sem urgencia",
+    "hook": "Seu descanso em Mariscal comeca aqui",
+    "approvedCopy": "Seu descanso em Mariscal",
+    "headline": "Seu descanso em Mariscal",
+    "supportingText": "Cafe da manha na suite, piscina de area comum e o clima acolhedor de sempre",
+    "CTA": "Fale no WhatsApp",
+    "tone": "acolhedor, leve, sem pressao",
+    "visualMood": "natural, luz do dia, cores quentes",
+    "visualReferences": [],
+    "mandatoryScenes": [
+      "refugio-piscina-terra",
+      "acomodacao-luna-sala",
+      "conforto-wood-quarto"
+    ],
+    "prohibitedScenes": [
+      "por-do-sol-mar",
+      "imagem-gerada-por-ia"
+    ],
+    "proofElements": [],
+    "textDensity": "baixa",
+    "pacingIntent": "calmo, sem cortes agressivos",
+    "musicIntent": "instrumental suave",
+    "voiceover": null,
+    "subtitleRequirement": "opcional"
+  },
+
+  "technical": {
+    "activeFormats": ["9:16"],
+    "format": "9:16",
+    "width": 1080,
+    "height": 1920,
+    "durationSeconds": 8,
+    "fps": 30,
+    "platform": "Instagram Reels",
+    "safeAreaProfile": "reels-padrao",
+    "outputPreset": null,
+    "audioRequired": true,
+    "captionsRequired": false,
+    "thumbnailRequired": true,
+    "renderRequired": true,
+    "templateId": null,
+    "pipelineMode": "simple"
+  },
+
+  "assets": [
+    {
+      "assetId": "refugio-piscina-terra",
+      "path": "public/assets/villa-aragua/reels02/01-refugio-piscina-terra.webp",
+      "type": "image",
+      "productId": "pousada",
+      "approved": true,
+      "intendedUse": "cena de abertura",
+      "scenePreference": "cena 1",
+      "cropRestrictions": "nao cortar linha da piscina",
+      "peopleVisible": false,
+      "rightsConfirmed": true,
+      "notes": "material real da Pousada, ja usado em producao anterior"
+    },
+    {
+      "assetId": "acomodacao-luna-sala",
+      "path": "public/assets/villa-aragua/reels02/02-acomodacao-luna-sala.webp",
+      "type": "image",
+      "productId": "pousada",
+      "approved": true,
+      "intendedUse": "cena intermediaria",
+      "scenePreference": "cena 2",
+      "cropRestrictions": null,
+      "peopleVisible": false,
+      "rightsConfirmed": true,
+      "notes": null
+    },
+    {
+      "assetId": "conforto-wood-quarto",
+      "path": "public/assets/villa-aragua/reels02/03-conforto-wood-quarto.webp",
+      "type": "image",
+      "productId": "pousada",
+      "approved": true,
+      "intendedUse": "cena de encerramento",
+      "scenePreference": "cena 3",
+      "cropRestrictions": null,
+      "peopleVisible": false,
+      "rightsConfirmed": true,
+      "notes": null
+    }
+  ],
+
+  "output": {
+    "derivationFormulaRef": "OUTPUT_CONTRACT.md (my-video) — output/{projectId}/{productId}/{productionId}/{artifactType}/"
+  },
+
+  "approvals": {
+    "strategic": {
+      "status": "APPROVED",
+      "approvedBy": "Renildo",
+      "approvedAt": "2026-07-24T13:10:00-03:00",
+      "notes": "Objetivo e promessa aprovados sem ressalvas",
+      "syncedFromApprovalId": "strategic-v1-20260724T131000",
+      "syncedAt": "2026-07-24T13:10:05-03:00"
+    },
+    "art": {
+      "status": "APPROVED",
+      "approvedBy": "Renildo",
+      "approvedAt": "2026-07-24T13:50:00-03:00",
+      "notes": "Guidelines visuais aprovadas",
+      "syncedFromApprovalId": "art-v1-20260724T135000",
+      "syncedAt": "2026-07-24T13:50:05-03:00"
+    },
+    "composition": {
+      "status": "APPROVED",
+      "approvedBy": "Renildo",
+      "approvedAt": "2026-07-24T14:54:00-03:00",
+      "notes": "Composition-spec aprovado; gate qualitativo tambem aprovado (ver qualityGate)",
+      "syncedFromApprovalId": "composition-v1-20260724T145400",
+      "syncedAt": "2026-07-24T14:54:05-03:00"
+    },
+    "engineering": {
+      "status": "PENDING",
+      "approvedBy": null,
+      "approvedAt": null,
+      "notes": null,
+      "syncedFromApprovalId": null,
+      "syncedAt": null
+    },
+    "preflight": {
+      "status": "PENDING",
+      "approvedBy": null,
+      "approvedAt": null,
+      "notes": null,
+      "syncedFromApprovalId": null,
+      "syncedAt": null
+    },
+    "render": {
+      "status": "PENDING",
+      "approvedBy": null,
+      "approvedAt": null,
+      "notes": null,
+      "syncedFromApprovalId": null,
+      "syncedAt": null
+    }
+  },
+
+  "qualityGate": {
+    "status": "APPROVED",
+    "reportRef": "reports/quality-gate-report.md",
+    "evaluatedBy": "Renildo",
+    "evaluatedAt": "2026-07-24T14:50:00-03:00",
+    "criteria": {
+      "forcaVisual": "PASS",
+      "protagonismoProduto": "PASS",
+      "clarezaPromessa": "PASS",
+      "qualidadeCrop": "PASS",
+      "hierarquiaTipografica": "PASS",
+      "legibilidade": "PASS",
+      "posicionamentoTextos": "PASS",
+      "excessoSobreposicao": "FLAG",
+      "equilibrioImagemTexto": "PASS",
+      "espacoNegativo": "PASS",
+      "coerenciaFonte": "PASS",
+      "pesoVisualCTA": "PASS",
+      "clarezaPrimeiros2Segundos": "PASS",
+      "adequacaoPublico": "PASS",
+      "coerenciaComercial": "PASS",
+      "ausenciaOverpromise": "PASS",
+      "aderenciaBriefing": "PASS"
+    }
+  },
+
+  "governance": {
+    "approvalAuthorities": {
+      "default": ["Renildo"],
+      "render": ["Renildo"]
+    },
+    "institutionalComparativeApproval": false
+  }
+}

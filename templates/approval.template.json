@@ -1,0 +1,19 @@
+{
+  "approvalId": "<REQUIRED: {gate}-v{productionVersion}-{timestamp}, ex. composition-v1-20260724T180000>",
+  "projectId": "villa-aragua",
+  "productId": "<REQUIRED: pousada | casa-aragua | institucional>",
+  "productionId": "<REQUIRED>",
+  "productionVersion": "<REQUIRED: inteiro, deve bater com o do briefing>",
+  "gate": "<REQUIRED: strategic | art | composition | engineering | preflight | render>",
+  "decision": null,
+  "approvedBy": null,
+  "approvedAt": null,
+  "artifactRefs": [
+    {
+      "path": "<REQUIRED: relativo a raiz da producao, ex. composition/composition-spec.json>",
+      "sha256": "<REQUIRED: sha256 hexadecimal do conteudo atual do arquivo>"
+    }
+  ],
+  "supersedesApprovalId": null,
+  "notes": ""
+}

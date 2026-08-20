@@ -1,0 +1,143 @@
+{
+  "contractVersion": "1.0.0",
+  "productionVersion": 1,
+  "projectId": "villa-aragua",
+  "productId": "<REQUIRED: pousada | casa-aragua | institucional>",
+  "productionId": "<REQUIRED: minusculo-com-hifen, unico dentro do productId>",
+  "campaignId": null,
+  "previousProductionId": null,
+  "sourceBriefing": "<REQUIRED: agente ou pessoa que originou este briefing, ex. villa-marketing-meta-ads>",
+  "createdAt": "<REQUIRED: ISO 8601>",
+  "updatedAt": "<REQUIRED: ISO 8601>",
+  "createdBy": "<REQUIRED: nome da pessoa responsavel>",
+  "status": "DRAFT",
+
+  "strategic": {
+    "businessObjective": "<REQUIRED>",
+    "audience": "<REQUIRED>",
+    "awarenessLevel": null,
+    "funnelStage": null,
+    "corePromise": "<REQUIRED>",
+    "offer": null,
+    "seasonality": null,
+    "distributionChannel": null,
+    "organicOrPaid": null,
+    "budgetContext": null,
+    "successMetric": null,
+    "commercialPriority": null
+  },
+
+  "product": {
+    "productName": "<REQUIRED>",
+    "productType": "<REQUIRED: pousada | casa-aragua | institucional>",
+    "location": null,
+    "approvedValuePropositions": ["<REQUIRED: pelo menos um item>"],
+    "prohibitedClaims": ["<REQUIRED: pelo menos um item, mesmo que generico>"],
+    "mandatoryDisclaimers": [],
+    "differentiation": null,
+    "guestProfile": null,
+    "bookingChannel": null,
+    "whatsAppDestination": null
+  },
+
+  "creative": {
+    "creativeConcept": null,
+    "hook": null,
+    "approvedCopy": "<REQUIRED>",
+    "headline": null,
+    "supportingText": null,
+    "CTA": "<REQUIRED>",
+    "tone": null,
+    "visualMood": null,
+    "visualReferences": [],
+    "mandatoryScenes": [],
+    "prohibitedScenes": [],
+    "proofElements": [],
+    "textDensity": null,
+    "pacingIntent": null,
+    "musicIntent": null,
+    "voiceover": null,
+    "subtitleRequirement": null
+  },
+
+  "technical": {
+    "activeFormats": ["<REQUIRED: ex. 9:16 -- array, um ou mais de 9:16 | 4:5 | 1:1 | 16:9>"],
+    "format": null,
+    "width": null,
+    "height": null,
+    "durationSeconds": "<REQUIRED: numero>",
+    "fps": "<REQUIRED: numero>",
+    "platform": null,
+    "safeAreaProfile": null,
+    "outputPreset": null,
+    "audioRequired": null,
+    "captionsRequired": null,
+    "thumbnailRequired": null,
+    "renderRequired": null,
+    "templateId": null,
+    "pipelineMode": "simple"
+  },
+
+  "assets": [
+    {
+      "assetId": "<REQUIRED>",
+      "path": "<REQUIRED: relativo a raiz de my-video, ex. public/assets/villa-aragua/...>",
+      "type": "<REQUIRED: image | video | audio>",
+      "productId": "<REQUIRED: deve bater com productId da producao>",
+      "approved": "<REQUIRED: true>",
+      "intendedUse": "<REQUIRED>",
+      "scenePreference": null,
+      "cropRestrictions": null,
+      "peopleVisible": "<REQUIRED: true|false>",
+      "rightsConfirmed": "<REQUIRED: true>",
+      "notes": null
+    }
+  ],
+
+  "output": {
+    "derivationFormulaRef": "OUTPUT_CONTRACT.md (my-video) — output/{projectId}/{productId}/{productionId}/{artifactType}/"
+  },
+
+  "approvals": {
+    "strategic": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null },
+    "art": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null },
+    "composition": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null },
+    "engineering": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null },
+    "preflight": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null },
+    "render": { "status": "PENDING", "approvedBy": null, "approvedAt": null, "notes": null, "syncedFromApprovalId": null, "syncedAt": null }
+  },
+
+  "qualityGate": {
+    "status": "PENDING",
+    "reportRef": null,
+    "evaluatedBy": null,
+    "evaluatedAt": null,
+    "criteria": {
+      "forcaVisual": "PENDING",
+      "protagonismoProduto": "PENDING",
+      "clarezaPromessa": "PENDING",
+      "qualidadeCrop": "PENDING",
+      "hierarquiaTipografica": "PENDING",
+      "legibilidade": "PENDING",
+      "posicionamentoTextos": "PENDING",
+      "excessoSobreposicao": "PENDING",
+      "equilibrioImagemTexto": "PENDING",
+      "espacoNegativo": "PENDING",
+      "coerenciaFonte": "PENDING",
+      "pesoVisualCTA": "PENDING",
+      "clarezaPrimeiros2Segundos": "PENDING",
+      "adequacaoPublico": "PENDING",
+      "coerenciaComercial": "PENDING",
+      "ausenciaOverpromise": "PENDING",
+      "aderenciaBriefing": "PENDING"
+    }
+  },
+
+  "governance": {
+    "approvalAuthorities": {
+      "default": ["Renildo"],
+      "render": ["Renildo"]
+    },
+    "institutionalComparativeApproval": false
+  }
+}

@@ -1,0 +1,163 @@
+produto,grupo,periodo,valor_reais,valor_num,min_noites,tipo_periodo,diagnostico,observacoes
+Apto Organic,Pousada base,Agosto/2026,R$ 399,399,1-2,Baixa temporada,manter,
+Suíte Fuego,Pousada base,Agosto/2026,R$ 399,399,1-2,Baixa temporada,manter,
+Suíte Metallo,Pousada base,Agosto/2026,R$ 399,399,1-2,Baixa temporada,manter,
+Apto Organic,Pousada base,Setembro/2026 base,R$ 449,449,1-2,Retomada,manter,
+Suíte Fuego,Pousada base,Setembro/2026 base,R$ 449,449,1-2,Retomada,manter,
+Suíte Metallo,Pousada base,Setembro/2026 base,R$ 449,449,1-2,Retomada,manter,
+Apto Organic,Pousada base,Setembro/2026 feriado,R$ 499,499,4,Feriado,revisar,"Verificar se 4 noites não trava demanda."
+Suíte Fuego,Pousada base,Setembro/2026 feriado,R$ 499,499,4,Feriado,revisar,"Verificar se 4 noites não trava demanda."
+Suíte Metallo,Pousada base,Setembro/2026 feriado,R$ 499,499,4,Feriado,revisar,"Verificar se 4 noites não trava demanda."
+Apto Organic,Pousada base,Outubro/2026 base,R$ 499,499,1-2,Média temporada,manter,
+Suíte Fuego,Pousada base,Outubro/2026 base,R$ 499,499,1-2,Média temporada,manter,
+Suíte Metallo,Pousada base,Outubro/2026 base,R$ 499,499,1-2,Média temporada,manter,
+Apto Organic,Pousada base,Outubro/2026 feriado,R$ 529,529,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Suíte Fuego,Pousada base,Outubro/2026 feriado,R$ 529,529,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Suíte Metallo,Pousada base,Outubro/2026 feriado,R$ 529,529,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Apto Organic,Pousada base,Novembro/2026 base,R$ 526,526,1-2,Pré-temporada,manter,
+Suíte Fuego,Pousada base,Novembro/2026 base,R$ 526,526,1-2,Pré-temporada,manter,
+Suíte Metallo,Pousada base,Novembro/2026 base,R$ 526,526,1-2,Pré-temporada,manter,
+Apto Organic,Pousada base,Novembro/2026 início/feriado,R$ 579,579,3,Feriado,manter,
+Suíte Fuego,Pousada base,Novembro/2026 início/feriado,R$ 579,579,3,Feriado,manter,
+Suíte Metallo,Pousada base,Novembro/2026 início/feriado,R$ 579,579,3,Feriado,manter,
+Apto Organic,Pousada base,Novembro/2026 feriado forte 19-21,R$ 717,717,3,Feriado forte,manter,
+Suíte Fuego,Pousada base,Novembro/2026 feriado forte 19-21,R$ 717,717,3,Feriado forte,manter,
+Suíte Metallo,Pousada base,Novembro/2026 feriado forte 19-21,R$ 717,717,3,Feriado forte,manter,
+Apto Organic,Pousada base,Dezembro/2026 1-18,R$ 629,629,1-2,Pré-alta,manter,
+Suíte Fuego,Pousada base,Dezembro/2026 1-18,R$ 629,629,1-2,Pré-alta,manter,
+Suíte Metallo,Pousada base,Dezembro/2026 1-18,R$ 629,629,1-2,Pré-alta,manter,
+Apto Organic,Pousada base,Natal/2026 19-25 dez,R$ 889,889,5,Natal,proteger,"Evitar desconto cedo."
+Suíte Fuego,Pousada base,Natal/2026 19-25 dez,R$ 889,889,5,Natal,proteger,"Evitar desconto cedo."
+Suíte Metallo,Pousada base,Natal/2026 19-25 dez,R$ 889,889,5,Natal,proteger,"Evitar desconto cedo."
+Apto Organic,Pousada base,Réveillon/2026 26-31 dez,R$ 1.337,1337,7,Réveillon,proteger,"Avaliar junto com janeiro/2027."
+Suíte Fuego,Pousada base,Réveillon/2026 26-31 dez,R$ 1.337,1337,7,Réveillon,proteger,"Avaliar junto com janeiro/2027."
+Suíte Metallo,Pousada base,Réveillon/2026 26-31 dez,R$ 1.337,1337,7,Réveillon,proteger,"Avaliar junto com janeiro/2027."
+Suíte Terra,Pousada premium intermediária,Agosto/2026,R$ 459,459,1-2,Baixa temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Agosto/2026,R$ 459,459,1-2,Baixa temporada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Setembro/2026 base,R$ 516,516,1-2,Retomada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Setembro/2026 base,R$ 516,516,1-2,Retomada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Setembro/2026 feriado,R$ 574,574,4,Feriado,revisar,"Wood segue Terra. Verificar se 4 noites não trava demanda."
+Suíte Wood,Pousada premium intermediária,Setembro/2026 feriado,R$ 574,574,4,Feriado,revisar,"Wood segue Terra. Verificar se 4 noites não trava demanda."
+Suíte Terra,Pousada premium intermediária,Outubro/2026 base,R$ 574,574,1-2,Média temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Outubro/2026 base,R$ 574,574,1-2,Média temporada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Outubro/2026 feriado,R$ 608,608,3,Feriado,revisar,"Wood segue Terra. Aumento sobre base parece tímido."
+Suíte Wood,Pousada premium intermediária,Outubro/2026 feriado,R$ 608,608,3,Feriado,revisar,"Wood segue Terra. Aumento sobre base parece tímido."
+Suíte Terra,Pousada premium intermediária,Novembro/2026 base,R$ 605,605,1-2,Pré-temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Novembro/2026 base,R$ 605,605,1-2,Pré-temporada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Novembro/2026 início/feriado,R$ 666,666,3,Feriado,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Novembro/2026 início/feriado,R$ 666,666,3,Feriado,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Novembro/2026 feriado forte 19-21,R$ 825,825,3,Feriado forte,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Novembro/2026 feriado forte 19-21,R$ 825,825,3,Feriado forte,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Dezembro/2026 1-18,R$ 723,723,1-2,Pré-alta,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Dezembro/2026 1-18,R$ 723,723,1-2,Pré-alta,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Natal/2026 19-25 dez,R$ 1.022,1022,5,Natal,proteger,"Wood segue Terra. Evitar desconto cedo."
+Suíte Wood,Pousada premium intermediária,Natal/2026 19-25 dez,R$ 1.022,1022,5,Natal,proteger,"Wood segue Terra. Evitar desconto cedo."
+Suíte Terra,Pousada premium intermediária,Réveillon/2026 26-31 dez,R$ 1.538,1538,7,Réveillon,proteger,"Wood segue Terra. Avaliar junto com janeiro/2027."
+Suíte Wood,Pousada premium intermediária,Réveillon/2026 26-31 dez,R$ 1.538,1538,7,Réveillon,proteger,"Wood segue Terra. Avaliar junto com janeiro/2027."
+Apto Organic,Pousada base,Janeiro/2027 1-3,R$ 1.337,1337,7/4,Alta temporada / virada,proteger,"Mínimos variam no print; confirmar no sistema."
+Suíte Fuego,Pousada base,Janeiro/2027 1-3,R$ 1.337,1337,7/4,Alta temporada / virada,proteger,"Mínimos variam no print; confirmar no sistema."
+Suíte Metallo,Pousada base,Janeiro/2027 1-3,R$ 1.337,1337,7/4,Alta temporada / virada,proteger,"Mínimos variam no print; confirmar no sistema."
+Apto Organic,Pousada base,Janeiro/2027 4-31,R$ 1.070,1070,4,Alta temporada,manter,
+Suíte Fuego,Pousada base,Janeiro/2027 4-31,R$ 1.070,1070,4,Alta temporada,manter,
+Suíte Metallo,Pousada base,Janeiro/2027 4-31,R$ 1.070,1070,4,Alta temporada,manter,
+Apto Organic,Pousada base,Fevereiro/2027 base,R$ 822,822,3,Alta/pós-alta,manter,
+Suíte Fuego,Pousada base,Fevereiro/2027 base,R$ 822,822,3,Alta/pós-alta,manter,
+Suíte Metallo,Pousada base,Fevereiro/2027 base,R$ 822,822,3,Alta/pós-alta,manter,
+Apto Organic,Pousada base,Carnaval/2027,R$ 994,994,5,Carnaval,subir com cautela,"Pode estar abaixo do potencial e abaixo de janeiro base."
+Suíte Fuego,Pousada base,Carnaval/2027,R$ 994,994,5,Carnaval,subir com cautela,"Pode estar abaixo do potencial e abaixo de janeiro base."
+Suíte Metallo,Pousada base,Carnaval/2027,R$ 994,994,5,Carnaval,subir com cautela,"Pode estar abaixo do potencial e abaixo de janeiro base."
+Apto Organic,Pousada base,Março/2027 base,R$ 607,607,1-2,Pós-temporada,manter,
+Suíte Fuego,Pousada base,Março/2027 base,R$ 607,607,1-2,Pós-temporada,manter,
+Suíte Metallo,Pousada base,Março/2027 base,R$ 607,607,1-2,Pós-temporada,manter,
+Apto Organic,Pousada base,Semana Santa/Páscoa 2027,R$ 595,595,3,Feriado,corrigir agora,"Está abaixo de março base. Provável erro de régua."
+Suíte Fuego,Pousada base,Semana Santa/Páscoa 2027,R$ 595,595,3,Feriado,corrigir agora,"Está abaixo de março base. Provável erro de régua."
+Suíte Metallo,Pousada base,Semana Santa/Páscoa 2027,R$ 595,595,3,Feriado,corrigir agora,"Está abaixo de março base. Provável erro de régua."
+Apto Organic,Pousada base,Abril/2027,R$ 499,499,2,Pós-temporada,manter,
+Suíte Fuego,Pousada base,Abril/2027,R$ 499,499,2,Pós-temporada,manter,
+Suíte Metallo,Pousada base,Abril/2027,R$ 499,499,2,Pós-temporada,manter,
+Suíte Terra,Pousada premium intermediária,Janeiro/2027 1-3,R$ 1.538,1538,7/4,Alta temporada / virada,proteger,"Wood segue Terra. Mínimos variam no print; confirmar no sistema."
+Suíte Wood,Pousada premium intermediária,Janeiro/2027 1-3,R$ 1.538,1538,7/4,Alta temporada / virada,proteger,"Wood segue Terra. Mínimos variam no print; confirmar no sistema."
+Suíte Terra,Pousada premium intermediária,Janeiro/2027 4-31,R$ 1.231,1231,4,Alta temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Janeiro/2027 4-31,R$ 1.231,1231,4,Alta temporada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Fevereiro/2027 base,R$ 945,945,3,Alta/pós-alta,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Fevereiro/2027 base,R$ 945,945,3,Alta/pós-alta,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Carnaval/2027,R$ 1.143,1143,5,Carnaval,subir com cautela,"Wood segue Terra. Pode estar abaixo do potencial e abaixo de janeiro base."
+Suíte Wood,Pousada premium intermediária,Carnaval/2027,R$ 1.143,1143,5,Carnaval,subir com cautela,"Wood segue Terra. Pode estar abaixo do potencial e abaixo de janeiro base."
+Suíte Terra,Pousada premium intermediária,Março/2027 base,R$ 698,698,1-2,Pós-temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Março/2027 base,R$ 698,698,1-2,Pós-temporada,manter,"Wood segue Terra."
+Suíte Terra,Pousada premium intermediária,Semana Santa/Páscoa 2027,R$ 684,684,3,Feriado,corrigir agora,"Wood segue Terra. Está abaixo de março base. Provável erro de régua."
+Suíte Wood,Pousada premium intermediária,Semana Santa/Páscoa 2027,R$ 684,684,3,Feriado,corrigir agora,"Wood segue Terra. Está abaixo de março base. Provável erro de régua."
+Suíte Terra,Pousada premium intermediária,Abril/2027,R$ 574,574,2,Pós-temporada,manter,"Wood segue Terra."
+Suíte Wood,Pousada premium intermediária,Abril/2027,R$ 574,574,2,Pós-temporada,manter,"Wood segue Terra."
+Apto Luna,Pousada superior,Agosto/2026,R$ 527,527,1-2,Baixa temporada,manter,
+Apto Luna,Pousada superior,Setembro/2026 base,R$ 593,593,1-2,Retomada,manter,
+Apto Luna,Pousada superior,Setembro/2026 feriado,R$ 659,659,4,Feriado,manter,
+Apto Luna,Pousada superior,Outubro/2026 base,R$ 659,659,1-2,Média temporada,manter,
+Apto Luna,Pousada superior,Outubro/2026 feriado,R$ 698,698,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Apto Luna,Pousada superior,Novembro/2026 base,R$ 694,694,1-2,Pré-temporada,manter,
+Apto Luna,Pousada superior,Novembro/2026 início/feriado,R$ 764,764,3,Feriado,manter,
+Apto Luna,Pousada superior,Novembro/2026 feriado forte 19-21,R$ 946,946,3,Feriado forte,manter,
+Apto Luna,Pousada superior,Dezembro/2026 1-18,R$ 830,830,1-2,Pré-alta,manter,
+Apto Luna,Pousada superior,Natal/2026 19-25 dez,R$ 1.173,1173,5,Natal,proteger,
+Apto Luna,Pousada superior,Réveillon/2026 26-31 dez,R$ 1.765,1765,7,Réveillon,proteger,
+Casa Arágua,Casa Arágua Mariscal,Agosto/2026,R$ 660,660,2,Baixa temporada,revisar,"Quase igual ao Duplex Soleil."
+Casa Arágua,Casa Arágua Mariscal,Setembro/2026 base,R$ 684,684,2,Retomada,subir com cautela,"Abaixo do Duplex Soleil. Casa deve ter régua própria."
+Casa Arágua,Casa Arágua Mariscal,Setembro/2026 feriado,R$ 1.254,1254,4,Feriado,manter,
+Casa Arágua,Casa Arágua Mariscal,Outubro/2026 base,R$ 743,743,2,Média temporada,subir com cautela,"Abaixo do Duplex Soleil. Casa deve ter régua própria."
+Casa Arágua,Casa Arágua Mariscal,Outubro/2026 feriado,R$ 1.273,1273,3,Feriado,manter,
+Casa Arágua,Casa Arágua Mariscal,Novembro/2026 base,R$ 993,993,3,Pré-temporada,manter,
+Casa Arágua,Casa Arágua Mariscal,Novembro/2026 início/feriado,R$ 1.273,1273,3,Feriado,manter,
+Casa Arágua,Casa Arágua Mariscal,Novembro/2026 feriado forte 19-21,R$ 1.273,1273,3,Feriado forte,manter/revisar,"Pode aceitar leve alta conforme concorrência e disponibilidade."
+Casa Arágua,Casa Arágua Mariscal,Dezembro/2026 1-18,R$ 1.140,1140,4,Pré-alta,manter,
+Casa Arágua,Casa Arágua Mariscal,Natal/2026 19-25 dez,R$ 2.032,2032,5,Natal,proteger,
+Casa Arágua,Casa Arágua Mariscal,Réveillon/2026 26-31 dez,R$ 2.067,2067,7,Réveillon,não mexer se reservado,"Aparece reserva no print. Valor abaixo do Duplex; usar como aprendizado para futuras datas."
+Duplex Soleil,Pousada topo,Agosto/2026,R$ 650,650,1-2,Baixa temporada,manter,"Topo da pousada."
+Duplex Soleil,Pousada topo,Setembro/2026 base,R$ 732,732,1-2,Retomada,manter,
+Duplex Soleil,Pousada topo,Setembro/2026 feriado,R$ 813,813,4,Feriado,manter,
+Duplex Soleil,Pousada topo,Outubro/2026 base,R$ 813,813,1-2,Média temporada,manter,
+Duplex Soleil,Pousada topo,Outubro/2026 feriado,R$ 862,862,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Duplex Soleil,Pousada topo,Novembro/2026 base,R$ 857,857,1-2,Pré-temporada,manter,
+Duplex Soleil,Pousada topo,Novembro/2026 início/feriado,R$ 944,944,3,Feriado,manter,
+Duplex Soleil,Pousada topo,Novembro/2026 feriado forte 19-21,R$ 1.169,1169,3,Feriado forte,manter,
+Duplex Soleil,Pousada topo,Dezembro/2026 1-18,R$ 1.025,1025,1-2,Pré-alta,manter,
+Duplex Soleil,Pousada topo,Natal/2026 19-25 dez,R$ 1.449,1449,5,Natal,proteger,
+Duplex Soleil,Pousada topo,Réveillon/2026 26-31 dez,R$ 2.179,2179,7,Réveillon,proteger,
+Suíte Acqua,Pousada superior,Agosto/2026,R$ 499,499,1-2,Baixa temporada,manter,
+Suíte Acqua,Pousada superior,Setembro/2026 base,R$ 561,561,1-2,Retomada,manter,
+Suíte Acqua,Pousada superior,Setembro/2026 feriado,R$ 624,624,4,Feriado,manter,
+Suíte Acqua,Pousada superior,Outubro/2026 base,R$ 624,624,1-2,Média temporada,manter,
+Suíte Acqua,Pousada superior,Outubro/2026 feriado,R$ 661,661,3,Feriado,revisar,"Aumento sobre base parece tímido."
+Suíte Acqua,Pousada superior,Novembro/2026 base,R$ 658,658,1-2,Pré-temporada,manter,
+Suíte Acqua,Pousada superior,Novembro/2026 início/feriado,R$ 724,724,3,Feriado,manter,
+Suíte Acqua,Pousada superior,Novembro/2026 feriado forte 19-21,R$ 896,896,3,Feriado forte,manter,
+Suíte Acqua,Pousada superior,Dezembro/2026 1-18,R$ 768,768,1-2,Pré-alta,manter,
+Suíte Acqua,Pousada superior,Natal/2026 19-25 dez,R$ 1.111,1111,5,Natal,proteger,
+Suíte Acqua,Pousada superior,Réveillon/2026 26-31 dez,R$ 1.671,1671,7,Réveillon,proteger,
+Apto Luna,Pousada superior,Janeiro/2027 1-3,R$ 1.765,1765,7,Alta temporada / virada,proteger,
+Apto Luna,Pousada superior,Janeiro/2027 4-31,R$ 1.412,1412,4,Alta temporada,manter,
+Apto Luna,Pousada superior,Fevereiro/2027 base,R$ 1.085,1085,3,Alta/pós-alta,manter,
+Apto Luna,Pousada superior,Carnaval/2027,R$ 1.312,1312,5,Carnaval,subir com cautela,"Pode acompanhar janeiro base."
+Apto Luna,Pousada superior,Março/2027 base,R$ 801,801,1-2,Pós-temporada,manter,
+Apto Luna,Pousada superior,Semana Santa/Páscoa 2027,R$ 785,785,3,Feriado,corrigir agora,"Está abaixo de março base."
+Apto Luna,Pousada superior,Abril/2027,R$ 659,659,2,Pós-temporada,manter,
+Casa Arágua,Casa Arágua Mariscal,Janeiro/2027 1-3,R$ 2.067,2067,7,Alta temporada / virada,não mexer se reservado,"Confirmar se há reserva. Abaixo do Duplex Soleil."
+Casa Arágua,Casa Arágua Mariscal,Janeiro/2027 4-31,R$ 1.624,1624,5,Alta temporada,subir com cautela,"Está abaixo do Duplex Soleil. Estudar faixa R$ 1.790–1.890 para datas abertas."
+Casa Arágua,Casa Arágua Mariscal,Fevereiro/2027 base,R$ 1.485,1485,4,Alta/pós-alta,manter,"Está acima do Duplex base, coerente."
+Casa Arágua,Casa Arágua Mariscal,Carnaval/2027,R$ 1.649,1649,5,Carnaval,subir com prioridade,"Está apenas R$ 29 acima do Duplex; estudar faixa R$ 1.850–1.950."
+Casa Arágua,Casa Arágua Mariscal,Março/2027 base,R$ 1.385,1385,3,Pós-temporada,manter,
+Casa Arágua,Casa Arágua Mariscal,Semana Santa/Páscoa 2027,R$ 1.549,1549,3,Feriado,manter,"Casa está correta acima do mês base."
+Casa Arágua,Casa Arágua Mariscal,Abril/2027,R$ 1.153,1153,2,Pós-temporada,manter,
+Duplex Soleil,Pousada topo,Janeiro/2027 1-3,R$ 2.179,2179,7,Alta temporada / virada,proteger,"Topo da pousada."
+Duplex Soleil,Pousada topo,Janeiro/2027 4-31,R$ 1.744,1744,4,Alta temporada,manter,"Topo da pousada."
+Duplex Soleil,Pousada topo,Fevereiro/2027 base,R$ 1.340,1340,3,Alta/pós-alta,manter,
+Duplex Soleil,Pousada topo,Carnaval/2027,R$ 1.620,1620,5,Carnaval,subir com cautela,"Pode acompanhar janeiro base."
+Duplex Soleil,Pousada topo,Março/2027 base,R$ 989,989,1-2,Pós-temporada,manter,
+Duplex Soleil,Pousada topo,Semana Santa/Páscoa 2027,R$ 970,970,3,Feriado,corrigir agora,"Está abaixo de março base."
+Duplex Soleil,Pousada topo,Abril/2027,R$ 813,813,2,Pós-temporada,manter,
+Suíte Acqua,Pousada superior,Janeiro/2027 1-3,R$ 1.671,1671,7,Alta temporada / virada,proteger,
+Suíte Acqua,Pousada superior,Janeiro/2027 4-31,R$ 1.338,1338,4,Alta temporada,manter,
+Suíte Acqua,Pousada superior,Fevereiro/2027 base,R$ 1.028,1028,3,Alta/pós-alta,manter,
+Suíte Acqua,Pousada superior,Carnaval/2027,R$ 1.243,1243,5,Carnaval,subir com cautela,"Pode acompanhar janeiro base."
+Suíte Acqua,Pousada superior,Março/2027 base,R$ 759,759,1-2,Pós-temporada,manter,
+Suíte Acqua,Pousada superior,Semana Santa/Páscoa 2027,R$ 744,744,3,Feriado,corrigir agora,"Está abaixo de março base."
+Suíte Acqua,Pousada superior,Abril/2027,R$ 624,624,2,Pós-temporada,manter,
