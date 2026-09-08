@@ -475,6 +475,47 @@ Para indicar el alojamiento más adecuado con seguridad, puedo encaminar al equi
 "Que alegria, muito obrigada por lembrar da gente! Pode passar sim o nosso WhatsApp oficial para eles entrarem em contato, vamos adorar atender."
 *Alerta interno:* rascunho para revisão humana. Quando o amigo indicado entrar em contato, tratar como novo lead comercial padrão (datas, pessoas, produto).
 
+**PC-EXT-39 — Forma de pagamento padrão de reserva direta / pedido de chave Pix / cartão sob consulta** *(aprovado por Renildo em 2026-09-08; base: item 91 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`, validado por Renildo na mesma data)*
+*Contexto de uso:* "Como faço para pagar?", "Qual a forma de pagamento?", "Como funciona o pagamento?", "Precisa de sinal?", "Qual a chave Pix?", "Me passa o Pix", "Aceita cartão?", "Dá para parcelar?", "Paguei, minha reserva está confirmada?", "Pode segurar a data pra mim?".
+*Base documental:* item 91 (forma padrão: 50% via Pix na confirmação + 50% no check-in, conforme combinado com a equipe); itens 30, 51 e 52. Complementa `PC-EXT-20` (parcelamento/Cielo), `PC-EXT-21` (segurar data sem pagamento) e `PC-EXT-29` (pagamento enviado aguardando validação), sem substituí-los.
+*Classificação:* explicação geral da forma de pagamento é atendimento simples com resposta segura aprovada. Vira negociação/exceção sensível (escalar para equipe/Renildo) se o hóspede pedir desconto, exceção, alteração de condição, confirmação de reserva/pagamento, ou "segurar a data".
+*Regra:* a IA pode explicar a forma padrão (50% via Pix para confirmar, restante no check-in, conforme combinado com a equipe) e que a reserva só fica confirmada após a equipe validar o pagamento/sinal. **A IA nunca:** envia chave Pix ou dados bancários; valida comprovante; diz que o pagamento caiu; confirma reserva; bloqueia ou "segura" data; altera condição de pagamento; concede desconto; promete parcelamento, exceção ou condição especial. Cartão e parcelamento são **sob consulta** — a IA diz que pode verificar com a equipe, sem prometer aprovação (cálculo de parcelas só pela regra de faixas do item 51, sobre valor validado por humano).
+*Nunca dizer:* "a chave Pix é..."; "segue os dados para pagamento"; "recebemos seu Pix"; "pagamento confirmado"; "sua reserva está confirmada"; "vou segurar a data"; "consigo parcelar em Nx"; "posso fazer um desconto"; "consigo uma condição especial".
+
+*Template PT — forma de pagamento (padrão):*
+"Para reservas diretas, normalmente trabalhamos com 50% via Pix para confirmar e bloquear a reserva, e o restante no check-in, conforme combinado com a equipe.
+
+A confirmação da reserva acontece depois da validação do pagamento pela equipe da Villa Arágua 😊
+
+Se você quiser, posso verificar as condições certinhas para o seu período."
+
+*Template PT — pedido de chave Pix:*
+"Posso te orientar por aqui, mas a chave Pix e os dados de pagamento são enviados só pelo atendimento oficial da Villa Arágua, depois da conferência da disponibilidade, dos valores e dos dados da reserva.
+
+Assim mantemos tudo seguro para vocês 😊"
+
+*Template PT — cartão / parcelamento (sob consulta):*
+"Podemos verificar a possibilidade conforme o período, o valor da reserva e a condição disponível no momento.
+
+A forma padrão das reservas diretas é 50% via Pix para confirmar e o restante no check-in, mas outras condições precisam ser confirmadas pela equipe."
+
+*Template ES — forma de pagamento (padrão):*
+"Para reservas directas, normalmente trabajamos con 50% por Pix para confirmar y bloquear la reserva, y el resto en el check-in, según lo combinado con el equipo.
+
+La confirmación de la reserva ocurre después de la validación del pago por el equipo de Villa Arágua 😊
+
+Si quieres, puedo verificar las condiciones exactas para tu período."
+
+*Template ES — pedido de chave Pix:*
+"Puedo orientarte por acá, pero la clave Pix y los datos de pago se envían solo por la atención oficial de Villa Arágua, después de verificar la disponibilidad, los valores y los datos de la reserva.
+
+Así mantenemos todo seguro para ustedes 😊"
+
+*"Já paguei, está confirmada?"* → usar `PC-EXT-29` (pedir comprovante; a equipe valida e confirma manualmente; a IA nunca confirma a reserva sozinha).
+*"Segura a data pra mim?"* → usar `PC-EXT-21` (a data segue sujeita à disponibilidade; só fica confirmada após pagamento/sinal validado pela equipe).
+
+*Alerta interno:* rascunho para revisão humana. A IA nunca envia dado de pagamento, nunca valida comprovante e nunca confirma reserva — envio e confirmação final sempre de Rene, Nubia ou Renildo.
+
 ---
 
 ## 4. Papéis humanos
@@ -711,6 +752,8 @@ Nenhuma automação real foi criada por este documento. Continuam bloqueados, co
   - Tabela de equivalência de códigos abaixo.
   - **`teste_regressao_biblioteca_comercial.py` ainda não foi atualizado** — permanece vinculado à classificação anterior; não deve ser executado como validação conclusiva até rodada própria.
   - **Nenhum outro arquivo do projeto foi alterado nesta rodada** (Arquitetura, Matriz de Roteamento de Agentes, `villa-orquestrador-triagem.md`, script de teste, Mapas do Cérebro IA e Comercial, Guia de Ativos, Funil, Matriz de Follow-up, CRM, agentes, skills e CLAUDE.md permanecem como estavam).
+
+- **08/09/2026 — Claude (a pedido de Renildo):** adicionado o template **`PC-EXT-39`** (forma de pagamento padrão de reserva direta: 50% via Pix para confirmar + 50% no check-in; pedido de chave Pix; cartão/parcelamento sob consulta), com base no novo **item 91** de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`. Não altera nenhum template existente e não amplia a autonomia da IA — a IA não envia chave Pix, não valida comprovante, não confirma reserva, não bloqueia data, não concede desconto/parcelamento/exceção. `PC-EXT-20`, `PC-EXT-21` e `PC-EXT-29` seguem inalterados e são referenciados por `PC-EXT-39`. `teste_regressao_biblioteca_comercial.py` continua verde (o template novo é `PC-EXT`, fora da contagem dos 22 códigos `PC-C1`–`PC-C4`). **Aprovado por Renildo em 2026-09-08**, junto com o item 91. Propagação concluída na mesma data para `PROMPT_RECEPCIONISTA_IA_WHATSAPP.md`, `ROTEIRO_RECEPCIONISTA_IA.md`, `GUIA_DIGITAL_HOSPEDE_VILLA_ARAGUA.md` e `MAPA_CONTROLE_ATUAL_RECEPCIONISTA_IA_VILLA_ARAGUA.md`.
 
 ### Tabela de equivalência de códigos (05/08/2026)
 

@@ -32,6 +32,8 @@ A Casa é entregue limpa, organizada e com o enxoval preparado para a sua estadi
 
 O check-in é a partir das 15h. Antes da sua chegada, vamos te enviar a localização, um vídeo explicativo e as instruções de acesso à sua acomodação.
 
+**Forma de pagamento (reservas diretas)**: normalmente trabalhamos com 50% do valor via Pix para confirmar e bloquear a reserva, e os 50% restantes no check-in, conforme combinado com a equipe. Essa é a forma padrão — ela pode variar de acordo com a condição alinhada com a nossa equipe na sua reserva. A reserva é considerada confirmada depois que a equipe valida o pagamento. A chave Pix e os dados de pagamento são sempre enviados pelo nosso atendimento oficial no WhatsApp 47 99201-4117, depois da conferência de disponibilidade, valores e dados — por segurança, esses dados não ficam registrados neste guia. Pagamento no cartão e parcelamento podem ser verificados com a equipe conforme o período e o valor da reserva.
+
 **Política de reserva e cancelamento (reservas diretas)**: para a Pousada Arágua, cancelamentos ou alterações devem ser avisados com no mínimo 7 dias de antecedência da data de entrada — dentro desse prazo, devolvemos 90% do valor depositado; após o prazo, não há devolução. Para a Casa Arágua, o prazo mínimo é de 21 dias, com a mesma regra de devolução. Essas condições valem também para alta temporada, feriados, Réveillon e Carnaval, salvo alguma condição específica combinada na sua reserva. Se você reservou por um canal como Booking ou Airbnb, vale a política do próprio canal. O não comparecimento até 00h do dia seguinte à data de entrada é considerado no-show, sem devolução do valor depositado.
 
 ## 7. Chegada após o horário da recepção

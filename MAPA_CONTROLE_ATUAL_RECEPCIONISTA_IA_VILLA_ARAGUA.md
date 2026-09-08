@@ -15,7 +15,7 @@ Ela **ainda não está pronta para envio automático** (isso nunca é o objetivo
 | Pré-venda | Bem coberto | `PC-C1/C2-XX`, `PC-N1-06/07/08/09/10` | Baixo | Base original + ajustes de tom |
 | Objeção de preço | Bem coberto | `PC-EXT-18/19` | Baixo-médio | Diferencia OTA de outra pousada; nunca equipara automaticamente |
 | OTA/Booking/Airbnb | Bem coberto | `PC-EXT-19` | Médio | Exige print com condições completas antes de qualquer comparação |
-| Parcelamento/pagamento | Bem coberto | `PC-EXT-20`, item 51/52 | Médio | Sem boleto; 6x/10x com 7% de acréscimo; nunca "sem juros" |
+| Parcelamento/pagamento | Bem coberto | `PC-EXT-39`, `PC-EXT-20`, item 51/52/91 | Médio | Forma padrão: 50% via Pix para confirmar + 50% no check-in, conforme combinado (forma padrão, não obrigação rígida); sem boleto; parcelamento sob consulta, teto **6x** por faixa de valor (item 51 — opção de 10x removida), acréscimo interno nunca citado ao hóspede; nunca "sem juros"; a IA nunca envia chave Pix, valida comprovante, confirma pagamento/reserva nem bloqueia data |
 | Pré-reserva | Bem coberto | `PC-EXT-21`, item 52 | Médio | Nunca segura data sem sinal validado |
 | Composição de hóspedes | Bem coberto | `PC-EXT-31`, Regra 19 | Médio | Nunca fecha orçamento antes da composição final |
 | Pousada x Casa | Bem coberto | Regra 18/20/22, `PC-EXT-03/04` | Médio | Travas de capacidade e configuração de camas bem testadas |
