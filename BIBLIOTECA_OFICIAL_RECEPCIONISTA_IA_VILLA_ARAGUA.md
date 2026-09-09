@@ -403,9 +403,11 @@ Estes 15 templates foram criados nos Temas 4.6 e 4.14 desta Rodada 4, testados s
 **Cuidados:** não prometer utensílios específicos; não dizer "cozinha equipada"; nunca prometer, sugerir, cotar ou verificar café da manhã para a Casa Arágua, em nenhuma condição (regra atualizada 2026-08-07).
 
 ### PC-N1-10 — Localização
-**Quando usar:** onde fica a Villa Arágua/Pousada/Casa; se dá para ir a pé até a praia; se é frente-mar; se tem vista para o mar.
+**Quando usar:** onde fica a Villa Arágua/Pousada/Casa; **"qual a distância do mar / da praia"**; se dá para ir a pé até a praia; se é frente-mar; se tem vista para o mar.
 **Quando não usar:** para enviar link real sem confirmação; prometer vista para o mar; afirmar frente-mar; confirmar reserva; tratar preço ou disponibilidade.
-**Regras:** Pousada não é frente-mar, ~130m da praia. Casa não é frente-mar, ~250m da praia (item 2 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`, validado 2026-07-02, reconfirmado em auditoria 2026-07-03). Nenhuma das duas deve ser comunicada como frente-mar; nunca prometer vista direta para o mar.
+**Regras:** Pousada não é frente-mar, ~130m da praia (itens 1 e 94 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`). Casa não é frente-mar, ~250m da praia (item 2, validado 2026-07-02, reconfirmado em auditoria 2026-07-03; o antigo "~180m" foi revogado). A distância é **dado oficial** — responder **direto**, **nunca** dizer que "não está registrada", "não consta no painel" ou "é desconhecida", e **nunca** reenviar o WhatsApp nessa resposta (o hóspede já está no canal). Pergunta genérica sobre "Villa Arágua" / "Pousada Arágua" / "distância do mar" → responder com os ~130m da Pousada. Só usar os ~250m quando a pergunta for especificamente sobre a Casa Arágua; não misturar as duas metragens sem dizer qual é de qual produto. Nenhuma das duas deve ser comunicada como frente-mar; nunca "pé na areia" nem vista direta para o mar; não inventar outra metragem nem converter em minutos exatos.
+**Resposta rápida — "qual a distância do mar?" (genérico/Pousada):**
+"A Villa Arágua fica em Mariscal, a aproximadamente 130 m da Praia de Mariscal — dá para ir caminhando com tranquilidade 😊"
 **Texto completo:**
 "Olá! A Villa Arágua fica em Mariscal, Bombinhas/SC, próxima da Praia de Mariscal 😊
 

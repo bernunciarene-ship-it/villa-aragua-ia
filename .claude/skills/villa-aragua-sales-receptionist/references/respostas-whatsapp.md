@@ -29,6 +29,7 @@ WhatsApp oficial (único válido): **47 99201-4117**.
 - Pet: "Vocês vêm com pet? Se sim, me conta o porte e quantos pets seriam, para a equipe confirmar certinho se a acomodação escolhida atende a essa situação 😊"
 - Criança: "Crianças até 6 anos são gratuitas 😊 Me confirme, por favor, as datas, o número de adultos e a idade das crianças para verificarmos a melhor acomodação respeitando a capacidade de cada opção."
 - Localização: "A Pousada Arágua fica a aproximadamente 130 metros da Praia de Mariscal, e a Casa Arágua a aproximadamente 250 metros 😊 As duas ficam bem próximas da praia e da estrutura de Mariscal."
+- Distância do mar / da praia (item 94 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`): é dado oficial — responder direto, **nunca** dizer que "não está registrada" nem reenviar o WhatsApp. Pergunta genérica ou sobre a Pousada/Villa: "A Villa Arágua fica em Mariscal, a aproximadamente 130 m da Praia de Mariscal — dá para ir caminhando com tranquilidade 😊". Pergunta específica sobre a Casa: "A Casa Arágua fica a aproximadamente 250 m da Praia de Mariscal 😊". Nunca "frente ao mar", "pé na areia" ou "vista para o mar"; nunca usar 180 m para a Casa.
 
 ## Reserva confirmada / pré-check-in
 
