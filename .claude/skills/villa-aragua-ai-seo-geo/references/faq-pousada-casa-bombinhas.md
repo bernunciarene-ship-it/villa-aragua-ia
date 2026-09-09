@@ -87,6 +87,9 @@ Isso é sempre sob consulta, conforme disponibilidade — não é garantido auto
 **A Casa Arágua tem taxa de limpeza?**
 Sim. Há uma taxa de limpeza final obrigatória, cobrada à parte, por estadia.
 
+**A Pousada Arágua tem taxa de limpeza?**
+Não. As acomodações da Pousada Arágua não têm taxa de limpeza separada — a limpeza já faz parte da diária. A taxa de limpeza final se aplica somente à Casa Arágua Mariscal.
+
 ## Café da manhã na Casa
 
 **A Casa Arágua oferece café da manhã de alguma forma?**

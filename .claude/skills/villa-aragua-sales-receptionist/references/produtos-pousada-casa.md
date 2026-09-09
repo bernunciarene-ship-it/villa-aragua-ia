@@ -13,6 +13,7 @@ Nunca recomende "a Villa Arágua" de forma genérica — sempre diferencie os do
 - Ambiente tranquilo, verde, com árvores nativas; área de lazer com parquinho, redes e quiosque.
 - Ideal para: casais, famílias pequenas, quem quer café da manhã, estadia curta, feriado, data romântica.
 - Diária média informada (2026-07-07): **R$ 500,00** — usar como referência de posicionamento ("a partir de"), nunca como tarifa fixa sem checar tabela real do período.
+- **Sem taxa de limpeza separada** (item 82 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`, 2026-07-17): a limpeza das suítes e apartamentos (Wood, Terra, Fuego, Metallo, Acqua, Organic, Luna, Duplex Soleil) já faz parte da diária. Nunca informe taxa de limpeza para acomodação da Pousada — a taxa de limpeza final de R$ 450,00 é exclusiva da Casa Arágua.
 
 ## Casa Arágua
 
