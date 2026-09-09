@@ -17,8 +17,8 @@ Ela **ainda não está pronta para envio automático** (isso nunca é o objetivo
 | OTA/Booking/Airbnb | Bem coberto | `PC-EXT-19` | Médio | Exige print com condições completas antes de qualquer comparação |
 | Parcelamento/pagamento | Bem coberto | `PC-EXT-39`, `PC-EXT-20`, item 51/52/91 | Médio | Forma padrão: 50% via Pix para confirmar + 50% no check-in, conforme combinado (forma padrão, não obrigação rígida); sem boleto; parcelamento sob consulta, teto **6x** por faixa de valor (item 51 — opção de 10x removida), acréscimo interno nunca citado ao hóspede; nunca "sem juros"; a IA nunca envia chave Pix, valida comprovante, confirma pagamento/reserva nem bloqueia data |
 | Pré-reserva | Bem coberto | `PC-EXT-21`, item 52 | Médio | Nunca segura data sem sinal validado |
-| Composição de hóspedes | Bem coberto | `PC-EXT-31`, Regra 19 | Médio | Nunca fecha orçamento antes da composição final |
-| Pousada x Casa | Bem coberto | Regra 18/20/22, `PC-EXT-03/04` | Médio | Travas de capacidade e configuração de camas bem testadas |
+| Composição de hóspedes | Bem coberto | `PC-EXT-31`, Regra 19, item 93 | Médio | Nunca fecha orçamento antes da composição final. **Hóspede adicional R$ 120/pessoa/noite é só da Pousada (item 93) — nunca aplicar à Casa Arágua, que tem valor por casa/período** |
+| Pousada x Casa | Bem coberto | Regra 18/20/22, item 93, `PC-EXT-03/04` | Médio | Travas de capacidade e configuração de camas bem testadas. Nunca misturar regra de preço: adicional por pessoa da Pousada **não** entra em cotação da Casa |
 | Fotos | Bem coberto | `PC-EXT-13/14/22` | Baixo | Apenas fotos catalogadas; nunca "melhor" absoluto |
 | Check-in | Bem coberto | `PC-N2-01/09`, `PC-N3-02/03` | Baixo | Horário 15h-22h consolidado |
 | Chegada fora do padrão | Coberto com ressalva | `PC-N3-02` + complemento madrugada | Médio-alto | Madrugada sempre escala com prioridade |

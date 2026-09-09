@@ -18,6 +18,7 @@ Regra central: **todo valor citado precisa ser classificado mentalmente em uma d
 - **Mínimo de diárias**: sem regra fixa fora de campanhas específicas — o pacote de 7 de Setembro tem mínimo de 4 diárias (ver `pacotes-feriados.md`); fora dele, mínimo de diárias por temporada segue "a definir".
 - **Enxoval extra e reposição** (valores confirmados, uso quando o hóspede solicitar): jogo de cama R$ 30,00; toalha de banho R$ 15,00; toalha de rosto R$ 10,00; tapete de piso R$ 10,00. Troca completa por acomodação: Terra/Wood/Organic/Fuego/Metallo R$ 150,00; Acqua/Luna R$ 180,00; Soleil R$ 220,00. A IA pode informar esses valores, mas **não pode conceder cortesia, desconto ou isenção sozinha**.
 - **Suítes e apartamentos**: cada unidade tem capacidade própria (Terra 3 · Acqua 4 · Wood 3 · Fuego 3 · Metallo 3 · Organic 2 · Luna 4 · Soleil 5).
+- **Hóspede adicional (preço aprovado, item 93 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`, 2026-09-09)**: **R$ 120,00 por pessoa/noite**, aplicável **somente às acomodações da Pousada Arágua**, quando houver hóspede adicional **dentro da capacidade máxima** da acomodação e sobre um **valor-base confirmado**. É regra exclusiva da Pousada — **nunca aplicar à Casa Arágua**. A IA não cita esse valor ao hóspede sem valor-base validado (regra-mãe 17 da Biblioteca Comercial); Revenue pode usá-lo em cálculo interno.
 
 ### Régua percentual interna da Pousada Arágua — `REGRA_APROVADA_RENILDO` (2026-07-25)
 
@@ -54,6 +55,7 @@ Se o hóspede perguntar se uma suíte específica é mais cara/barata que outra,
 - **Limpeza extra durante a estadia**: R$ 350,00 por limpeza, sob consulta, sujeita à disponibilidade da equipe — não é garantida automaticamente.
 - **Estacionamento**: exclusivo e gratuito, até 3 carros, área aberta — **nunca dizer "garagem coberta"**.
 - **Capacidade máxima**: até 6 pessoas — grupos maiores não cabem na Casa; nesse caso, avaliar combinação com acomodações da Pousada.
+- **Hóspede adicional — NÃO se aplica à Casa (item 93 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`, 2026-09-09)**: o valor da Casa Arágua é tratado como **valor da casa/período**, não como diária por pessoa. **Não aplicar o adicional de R$ 120,00 por pessoa/noite da Pousada à Casa.** Para 4 adultos (ou qualquer ocupação dentro das 6 pessoas) **não existe cobrança de hóspede adicional** — a cotação da Casa é: valor da casa no período + taxa de limpeza final de R$ 450,00 por estadia, nada mais. Ocupação diferente, pedido de valor para mais pessoas ou condição especial → encaminhar para validação humana; nunca calcular um total da Casa somando adicional por pessoa.
 
 ## Diferença de diária Pousada x Casa — como explicar
 
@@ -84,4 +86,5 @@ A hipótese "em data forte, Casa Arágua deve valer mais que o Duplex Soleil" (`
 
 - Pacote, diária ou condição aprovada para um produto **nunca** se aplica automaticamente ao outro. Exemplo real: o pacote de R$ 1.997,00/4 diárias é exclusivo da Pousada Arágua — a Casa Arágua fica fora dessa oferta por decisão explícita de Renildo (2026-07-07).
 - Antes de citar qualquer valor, perguntar internamente: "isso é da Pousada ou da Casa?" — e nunca responder com o valor do outro produto.
+- **Adicional de hóspede (R$ 120,00 por pessoa/noite) é da Pousada e só da Pousada** (item 93). A Casa Arágua tem valor por casa/período — nunca receber cálculo automático de adicional por pessoa. Nunca compor um total da Casa como "diária × pessoas" ou "valor da casa + hóspede adicional".
 - Adultos e crianças: crianças até 6 anos são gratuitas em ambos os produtos — sempre confirmar idade, número de pessoas e datas antes de aplicar isso a um orçamento, respeitando a capacidade máxima de cada acomodação/da Casa.

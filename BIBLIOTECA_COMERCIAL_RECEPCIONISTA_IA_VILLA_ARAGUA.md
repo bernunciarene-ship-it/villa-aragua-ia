@@ -651,6 +651,7 @@ Pedido normal de preço e orçamento é **C2**, não C3, na definição canônic
 
 **PC-C2-08 — Taxa adicional (pessoa extra, diária extra)** *(antigo PC-C3-03)*
 > "Sobre taxa adicional, a equipe confirma o valor certo, porque depende da acomodação e do número de pessoas. Você pode me confirmar quantas pessoas ao todo?"
+> *Cuidados (item 93 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`): a regra de adicional de hóspede por pessoa/noite é **exclusiva das acomodações da Pousada Arágua** — nunca aplicar à Casa Arágua Mariscal, que tem valor por casa/período. Para a Casa, "4 adultos" não gera hóspede adicional; nunca montar um total da Casa somando adicional por pessoa. Como manda a regra-mãe 17, a IA não cita o valor do adicional — encaminha para a equipe confirmar.*
 
 **PC-C2-09 — Mínimo de diárias (feriado/alta temporada)** *(antigo PC-C3-04)*
 > "Em períodos de alta procura, como feriados e datas especiais, costuma haver regras específicas de mínimo de diárias — o número exato a equipe confirma pra essas datas."

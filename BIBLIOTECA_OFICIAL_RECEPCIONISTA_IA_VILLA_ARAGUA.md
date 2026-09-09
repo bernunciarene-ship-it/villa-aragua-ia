@@ -229,6 +229,7 @@ Responsável por decisões sensíveis. Deve ser acionado em: preço; desconto; p
 | PC-N1-08 | Estrutura básica Pousada | Texto completo na seção 9 |
 | PC-N1-09 | Estrutura básica Casa | Aprovado com ajuste — "cozinha e sala integradas"; texto completo na seção 10 |
 | PC-N1-10 | Localização | Aprovado nesta rodada; texto completo na seção 10 |
+| PC-N1-11 | Pedido para falar com a equipe / humano — já em canal oficial | Adicionado em 2026-09-09 (item 92 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`); texto completo na seção 10 |
 
 ### Nível 2 — 16 templates
 
@@ -415,6 +416,22 @@ Se quiser, posso pedir para a equipe confirmar a orientação exata de chegada q
 "A Villa Arágua fica em Mariscal, Bombinhas/SC 😊 A Pousada fica a ~130m da praia, e a Casa a ~250m — nenhuma das duas é frente-mar, então não prometemos vista para o mar."
 **Resposta específica — Casa frente-mar:**
 "Não, a Casa Arágua não é frente-mar 😊 Ela fica a aproximadamente 250 metros da Praia de Mariscal — bem pertinho, mas sem vista direta para o mar."
+
+### PC-N1-11 — Pedido para falar com a equipe / humano — já em canal oficial *(adicionado em 2026-09-09; item 92 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`)*
+**Quando usar:** o hóspede já está em um canal oficial de atendimento (conversa do site, "Conversas IA" do painel administrativo, WhatsApp, ou chat já iniciado com a Villa Arágua) e pede para falar com a equipe, com um humano, com um atendente ou com o responsável.
+**Quando não usar:** quando o hóspede pede explicitamente o telefone/WhatsApp; quando a conversa está fora de um canal oficial; em página informativa do site; quando é preciso apresentar os canais oficiais de contato; em suspeita de golpe (usar o fluxo 11C / item 28, que orienta confirmar pelo canal oficial). Nesses casos, sim, informar o WhatsApp **47 99201-4117**.
+**Regra:** não repetir o número do WhatsApp — o hóspede já está no canal certo. Apenas confirmar que a conversa vai ser encaminhada para a equipe assumir o atendimento ali mesmo, e sinalizar o handoff. Nunca prometer prazo de retorno, atendimento 24h ou prioridade; nunca dizer "a equipe vai responder agora". Não altera preço, pagamento, Pix, parcelamento, disponibilidade, reserva, cancelamento nem taxa de limpeza.
+**Texto completo:**
+"Claro 😊 Vou encaminhar sua conversa para nossa equipe te atender por aqui.
+
+Eles vão te ajudar a avaliar a melhor opção para o grupo."
+**Versão curta:**
+"Claro 😊 Vou chamar nossa equipe para continuar o atendimento por aqui."
+**Texto en español:**
+"Claro 😊 Voy a derivar tu conversación a nuestro equipo para que te atienda por aquí.
+
+Ellos te van a ayudar a evaluar la mejor opción para el grupo."
+**Cuidados:** se o pedido vier junto de irritação/frustração, aplicar também o fluxo de hóspede irritado (`ROTEIRO_RECEPCIONISTA_IA.md`, §16B) para tom e limites de promessa. Se envolver acesso/check-in, seguir 11B; se envolver golpe/pagamento, seguir 11C.
 
 ### PC-N3-05 — Pedido de desconto
 **Status:** aprovado como bloqueio, não como negociação.

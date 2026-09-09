@@ -32,6 +32,7 @@ Nunca recomende "a Villa Arágua" de forma genérica — sempre diferencie os do
 
 - O que é oferta/preço/pacote de um produto **nunca** aparece no outro. Exemplo real já usado: o pacote "4 diárias por R$ 1.997,00" da campanha de 7 de Setembro de 2026 é **exclusivo da Pousada Arágua** — se o lead perguntar se vale para a Casa, a resposta é explicar que a comunicação é separada e passar as condições próprias da Casa (diária média R$ 990,00, mínimo 4 diárias, taxa de limpeza R$ 450,00).
 - Café incluso é só da Pousada. Estacionamento gratuito para até 3 carros é só da Casa (a Pousada tem 1 vaga gratuita por acomodação, com mapa fixo de vagas — outro sistema, não confundir).
+- **Adicional de hóspede (R$ 120,00 por pessoa/noite) é só da Pousada** (item 93 de `DADOS_OFICIAIS_ATENDIMENTO_VILLA_ARAGUA.md`), dentro da capacidade da acomodação e sobre valor-base confirmado. **A Casa Arágua tem valor por casa/período** — nunca aplicar adicional automático por pessoa na Casa. Para 4 adultos na Casa: valor da casa + taxa de limpeza de R$ 450,00, sem "hóspede adicional". Ocupação diferente ou dúvida de valor na Casa → encaminhar para a equipe.
 - Se o lead está indeciso entre os dois, comparar de forma simples: café + piscina comum + ambiente de pousada (Pousada) vs. privacidade + piscina exclusiva + espaço para grupo (Casa) — nunca empurrar um dos dois sem entender o perfil primeiro.
 
 ## O que nunca prometer sobre os produtos
